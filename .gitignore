@@ -33,3 +33,8 @@ pnpm-debug.log*
 *.swp
 *.tmp
 Thumbs.db
+
+pnpm-lock.yaml
+firebase.json
+firebase-debug.log
+firebase.ts
