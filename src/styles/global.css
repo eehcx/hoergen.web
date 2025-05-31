@@ -1,8 +1,8 @@
 @import "tailwindcss";
 @theme  {
-  --color-black: #1e1e1e;
-  --color-white: #e7e7d8;
-  --color-eagle: #afac95;
+  --color-black: #121212;
+  --color-white: #F5F5F5;
+  --color-eagle: #A8A29E;
   --color-orange: #26E056;
 }
 .font-display {
