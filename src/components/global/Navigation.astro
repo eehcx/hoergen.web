@@ -1,3 +1,13 @@
+---
+import { t } from "@/utils/i18n";
+
+export interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
+---
+
 <section
   class="mx-auto border-white/20 border-t 2xl:max-w-7xl bg-black border-b justify-center lg:fixed lg:z-50 w-full"
 >
@@ -11,17 +21,17 @@
         <a
           href="/"
           class="text-white text-xs font-display inline-flex items-center md:px-8 md:text-center py-4 uppercase"
-          ><span>Hoergen ⏤ Woldwide radio</span>
+          ><span>Hoergen ⏤ {t(lang, 'nav.title')}</span>
         </a>
         <a
           href="/"
           class="w-full bg-white duration-200 font-display hover:bg-black hover:text-white lg:ml-auto lg:w-auto px-6 py-4 sm:rounded-full text-black text-center text-xs uppercase"
-          >Stations</a
+          >{t(lang, 'nav.stations')}</a
         >
         <a
           href="https://studio.hoergen.com"
           class="w-full bg-orange duration-200 font-display hover:bg-blacktext-white lg:w-auto px-6 py-4 sm:rounded-full text-black hover:text-gray-100 text-center text-xs uppercase"
-          >Get start</a
+          >{t(lang, 'nav.getStarted')}</a
         >
       </div>
     </div>

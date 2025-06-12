@@ -1,13 +1,23 @@
+---
+import { t } from "@/utils/i18n";
+
+export interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
+---
+
 <section class="border-white/20  border-b ">
   <div class="mx-auto border-white/20  border-x max-w-7xl gradient-grid">
     <div class="mx-auto max-w-7xl p-8">
       <p class="text-white font-display uppercase lg:text-6xl text-xl">
-        Hörgen Radio is a global stream of underground energy — broadcasting handpicked stations that move with the rhythm of the moment and the mood of the night.
+        {t(lang, 'intro.about')}
       </p>
     </div>
     <div class="mx-auto max-w-7xl p-8">
       <p class="text-white font-display uppercase lg:text-3xl">
-        We bring together electronic frequencies from across the world — from Berlin basements to late-night sets in Tokyo. Each station is selected to surprise, inspire, and pull you in. With Hörgen, you're not just listening — you're part of a living, breathing sound movement that never stops spinning.
+        {t(lang, 'intro.community')}
       </p>
     </div>
   </div>

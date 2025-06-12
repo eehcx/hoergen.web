@@ -5,14 +5,15 @@ import Work from "@/components/landing/Work.astro";
 import Intro from "@/components/landing/Intro.astro";
 import Services from "@/components/landing/Services.astro";
 import Cta from "@/components/landing/Cta.astro";
+import { getCurrentLang } from "@/utils/i18n";
 
+const lang = getCurrentLang(Astro.url);
 ---
 
-
 <BaseLayout>
-  <Hero />
+  <Hero lang={lang} />
   <!-- <Work /> -->
-  <Intro />
-  <Services />
-  <Cta />
+  <Intro lang={lang} />
+  <Services lang={lang} />
+  <Cta lang={lang} />
 </BaseLayout>

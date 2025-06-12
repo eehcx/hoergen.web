@@ -1,6 +1,13 @@
 ---
 import Banner from "@/components/landing/Banner.astro";
 import Testimonials from "@/components/landing/Testimonials.astro";
+import { t } from "@/utils/i18n";
+
+export interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
 ---
 
 <section class="border-white/20 border-b">
@@ -8,12 +15,11 @@ import Testimonials from "@/components/landing/Testimonials.astro";
     <div class="mx-auto">
       <div class="mx-auto lg:pt-28 gradient-grid px-8 py-12">
         <h1 class="text-white font-display uppercase text-3xl lg:text-7xl">
-          Not algorithms. Just humans curating the deepest underground
-          frequencies. Tap in. Stay raw. Stay real.
+          {t(lang, 'hero.title')}
         </h1>
       </div>
       <Banner />
-      <Testimonials />
+      <Testimonials lang={lang} />
     </div>
   </div>
 </section>

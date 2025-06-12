@@ -1,46 +1,31 @@
+---
+import { t } from "@/utils/i18n";
+
+export interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
+const testimonials = t(lang, 'testimonials');
+---
+
 <div
   class="text-white text-xs gap-3 gap-y-12 grid grid-cols-1 md:grid-cols-4 mx-auto p-8 sm:grid-cols-2"
 >
-  <div class="flex flex-col justify-between h-full">
-    <p class="text-[#1FB645]">
-    There’s no fake curation here. Just real stations, real sound. 
-    The chat feature makes it feel like I’m back in a warehouse party, 
-    talking music while it’s playing.
-    </p>
-    <div class="mt-3">
-      <span class="block font-semibold mt-3">Felix Jansen</span>
-      <span class="block text-eagle">Underground DJ / Cologne</span>
+  {testimonials.map((testimonial: any, index: number) => (
+    <div class="flex flex-col justify-between h-full">
+      <p class={
+        index === 0 ? "text-[#1FB645]" :
+        index === 1 ? "text-[#25D852]" :
+        index === 2 ? "text-[#2fe25c]" :
+        "text-eagle"
+      }>
+        {testimonial.quote}
+      </p>
+      <div class="mt-3">
+        <span class="block font-semibold mt-3">{testimonial.author}</span>
+        <span class="block text-eagle">{testimonial.source}</span>
+      </div>
     </div>
-  </div>
-  <div class="flex flex-col justify-between h-full">
-    <p class="text-[#25D852]">
-    There’s no fake curation here. Just real stations, real sound. 
-    The chat feature makes it feel like I’m back in a warehouse party,
-    talking music while it’s playing.
-    </p>
-    <div class="mt-3">
-        <span class="block font-semibold mt-3">Marla Weiss</span>
-      <span class="block text-eagle">Vinyl Collector / Hamburg</span>
-    </div>
-  </div>
-  <div class="flex flex-col justify-between h-full">
-    <p class="text-[#2fe25c]">
-      The raw interface? Beautifully intentional. No distractions. I open Hörgen,
-      hit play, and it’s like I disappear for hours — exactly how it should be.
-    </p>
-    <div class="mt-3">
-      <span class="block font-semibold mt-3">Denis Kramer</span>
-      <span class="block text-eagle">Club Photographer / Leipzig</span>
-    </div>
-  </div>
-  <div class="flex flex-col justify-between h-full">
-    <p class="text-eagle">
-    It’s the closest thing to tuning into HÖR without needing a stream link or VPN. 
-    Honest radio. Honest techno. No fluff.
-    </p>
-    <div class="mt-3">
-      <span class="block font-semibold mt-3">Anika Söldner</span>
-      <span class="block text-eagle">Nightlife Writer / Berlin</span>
-    </div>
-  </div>
+  ))}
 </div>

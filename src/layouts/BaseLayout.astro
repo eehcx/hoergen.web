@@ -2,15 +2,23 @@
 import BaseHead from "@/components/BaseHead.astro";
 import Navigation from "@/components/global/Navigation.astro";
 import Footer from "@/components/global/Footer.astro";
+import { getCurrentLang } from "@/utils/i18n";
+
+export interface Props {
+  title?: string;
+}
+
+const { title } = Astro.props;
+const currentLang = getCurrentLang(Astro.url);
 ---
 
-<html lang="en" class="selection:bg-orange  selection:text-white">
+<html lang={currentLang} class="selection:bg-orange  selection:text-white">
   <head>
-    <BaseHead />
+    <BaseHead title={title} lang={currentLang} />
   </head>
   <body class="mx-auto bg-black 2xl:max-w-7xl">
-    <Navigation />
+    <Navigation lang={currentLang} />
     <slot />
-    <Footer />
+    <Footer lang={currentLang} />
   </body>
 </html>

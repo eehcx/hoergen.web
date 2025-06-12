@@ -1,0 +1,143 @@
+{
+    "site": {
+        "title": "Hoergen | Worldwide Broadcast of Underground House & Techno Culture",
+        "description": "Broadcasting culture, not just beats. Underground stations handpicked for those who still listen."
+    },
+    "nav": {
+        "title": "Worldwide radio",
+        "stations": "Stations",
+        "getStarted": "Get Started"
+    },
+    "hero": {
+        "title": "Not algorithms. Just humans curating the deepest underground frequencies. Tap in. Stay raw. Stay real."
+    },
+    "testimonials": [
+        {
+            "quote": "There’s no fake curation here. Just real stations, real sound. The chat feature makes it feel like I’m back in a warehouse party, talking music while it’s playing.",
+            "author": "Felix Jansen",
+            "source": "Underground DJ / Cologne"
+        },
+        {
+            "quote": "Finally, a radio that gets it. No mainstream fluff, just pure underground vibes. The community is tight, and the music is even tighter.",
+            "author": "Maya Tran",
+            "source": "Rave Organizer / Berlin"
+        },
+        {
+            "quote": "The raw interface? Beautifully intentional. No distractions. I open Hörgen, hit play, and it’s like I disappear for hours — exactly how it should be.",
+            "author": "Denis Kramer",
+            "source": "Club Photographer / Leipzig"
+        },
+        {
+            "quote": "It’s the closest thing to tuning into HÖR without needing a stream link or VPN. Honest radio. Honest techno. No fluff.",
+            "author": "Anika Söldner",
+            "source": "Nightlife Writer / Berlin"
+        }
+    ],
+    "intro": {
+        "about": "Hörgen Radio is a global stream of underground energy — broadcasting handpicked stations that move with the rhythm of the moment and the mood of the night.",
+        "community": "We bring together electronic frequencies from across the world — from Berlin basements to late-night sets in Tokyo. Each station is selected to surprise, inspire, and pull you in. With Hörgen, you're not just listening — you're part of a living, breathing sound movement that never stops spinning."
+    },
+    "services": {
+        "title": "pulse. community. intention.",
+        "experiences": [
+            {
+                "title": "Discover effortlessly:",
+                "description": "Explore German techno stations with an interface that disappears to make way for the beat. Find your ideal frequency without confusing menus or visual distractions. You choose, you flow."
+            },
+            {
+                "title": "Memory in every beat:",
+                "description": "Every station you tune into becomes part of your journey. Your history and favorites form a personal archive — a sonic diary of everything that’s moved you."
+            },
+            {
+                "title": "Built for ravers:",
+                "description": "Dark, stripped down, and honest. Hörgen is designed like a digital club: no likes, no filters. Just raw sound, real emotion, and a space made for those who know."
+            }
+        ]    },
+    "cta": "Get our app",
+    "footer": {
+        "title": "Hoergen Radio",
+        "description": "Broadcasting culture, not just beats. Underground stations handpicked for those who still listen.",
+        "links": {
+            "privacyPolicy": "Privacy Policy",
+            "termsOfService": "Terms of Service"
+        }
+    },
+    "privacy": {
+        "title": "Privacy Policy",
+        "intro": "Thank you for using Hörgen Radio. Your privacy is extremely important to us. This Privacy Policy explains how we collect, use, store, and protect your personal information when you interact with our mobile application and related services.",
+        "sections": {
+            "informationTitle": "Information We Collect",
+            "informationIntro": "We collect the following types of information:",
+            "personalTitle": "Personal Information",
+            "personalDesc": "Provided directly by you when signing up, logging in, or updating your profile. This may include your name, email address, and profile preferences.",
+            "usageTitle": "Usage Data",
+            "usageDesc": "Information about how you use the app (e.g., stations played, search queries, favorites, listening history) to enhance your experience and recommend content.",
+            "deviceTitle": "Device Information",
+            "deviceDesc": "Technical details such as device model, operating system, and app version for debugging and support.",
+            "authTitle": "Authentication and Payment Data",
+            "authDesc": "When using features like subscriptions or account linking (e.g., Firebase Auth, Stripe), we may access authentication tokens or limited billing metadata. Sensitive information like credit card numbers is handled securely by trusted third-party providers (e.g., Stripe) and is never stored directly by us.",
+            "useTitle": "How We Use Your Information",
+            "useIntro": "We use the collected information to:",
+            "useList": [
+                "Provide and maintain the core functionality of Hörgen Radio",
+                "Personalize your experience and improve recommendations",
+                "Communicate important updates, promotions, or technical notices",
+                "Monitor and improve the performance, security, and reliability of our services",
+                "Comply with legal obligations and prevent misuse or fraud"
+            ],
+            "protectionTitle": "Data Protection",
+            "protectionDesc": "We use modern, industry-standard security practices—including encrypted connections (HTTPS), secure Firebase infrastructure, and access controls—to protect your data. Despite our efforts, no online system can be guaranteed 100% secure.",
+            "childrenTitle": "Children’s Privacy & Chat Moderation",
+            "childrenDesc1": "Hörgen Radio is not intended for children under the age of 13. We do not knowingly collect or store personal information from users under this age. If you are a parent or guardian and believe that your child has provided us with personal data, please contact us immediately at contact@hoergen.com, and we will take steps to remove such information.",
+            "childrenDesc2": "Our mobile app includes a chat feature designed to enhance user interaction. To maintain a safe and respectful environment, we use the Perspective API (a Google-provided tool) to automatically evaluate messages for potentially harmful, toxic, or inappropriate content. This moderation system may process message content in real time but does not store or associate this data with any personally identifiable information.",
+            "childrenDesc3": "Users under 18 should review this policy with a parent or guardian before using the app. By using our services, you confirm that you are at least 13 years old, or that you are doing so with proper parental consent.",
+            "rightsTitle": "Your Rights and Choices",
+            "rightsIntro": "You have the right to:",
+            "rightsList": [
+                "Access, correct, or delete your personal information",
+                "Withdraw consent or deactivate your account at any time",
+                "Contact us with concerns or inquiries related to your data"
+            ],
+            "rightsContact": "To exercise these rights, contact us directly at contact@hoergen.com",
+            "thirdTitle": "Third-Party Services",
+            "thirdDesc": "Hörgen Radio relies on services such as Firebase (for authentication, Firestore, analytics) and Stripe (for payments). These providers have their own privacy practices, and we recommend reviewing their policies to understand how they handle your information.",
+            "contactTitle": "Contact Us",
+            "contactDesc1": "If you have any questions or concerns about this Privacy Policy or how your data is handled, you can reach us at:",
+            "contactForm": "Available in the app under Settings > Help & Support.",
+            "responseTime": "We aim to respond to all inquiries within 48 hours."
+        }
+    },
+    "terms": {
+        "title": "Terms of Service",
+        "intro": "These Terms of Service (\"Terms\") govern your access to and use of Hörgen Radio and its related services (\"the Service\"). By using the Service, you agree to comply with and be legally bound by these Terms. If you do not agree, please do not use the Service.",
+        "sections": {
+            "eligibilityTitle": "Eligibility",
+            "eligibilityDesc": "You must be at least 13 years old to use Hörgen Radio. If you are under 18, you must have permission from a parent or legal guardian. We do not knowingly collect or store personal data from children under the age of 13.",
+            "conductTitle": "User Conduct",
+            "conductIntro": "You agree not to engage in any activity that interferes with or disrupts the Service, or violates the rights of others. Prohibited behavior includes (but is not limited to):",
+            "conductList": [
+                "Harassment, abuse, or threatening language in chats or other features",
+                "Spam, misleading content, or unauthorized promotions",
+                "Posting offensive, hateful, or illegal material",
+                "Attempting to gain unauthorized access to our systems"
+            ],
+            "conductModeration": "We use automated moderation tools (e.g., Perspective API by Google) to detect and manage toxic or harmful language in chat features.",
+            "suspensionTitle": "Account Suspension",
+            "suspensionDesc": "We reserve the right to suspend or terminate your access to the Service at any time, with or without notice, if we believe you have violated these Terms or for any other reason deemed appropriate.",
+            "ipTitle": "Intellectual Property",
+            "ipDesc": "Hörgen Radio and its content—including logos, interface, and branding—are protected by copyright and other intellectual property laws. You may not use, copy, or distribute any part of the Service without our express permission.",
+            "disclaimerTitle": "Disclaimers",
+            "disclaimerDesc": "The Service is provided 'as is' and 'as available' without warranties of any kind, either express or implied. We do not guarantee the accuracy, availability, or reliability of the Service.",
+            "limitationTitle": "Limitation of Liability",
+            "limitationDesc": "To the maximum extent permitted by law, Hörgen Radio shall not be liable for any indirect, incidental, special, or consequential damages resulting from the use or inability to use the Service.",
+            "changesTitle": "Changes to the Terms",
+            "changesDesc": "We may modify these Terms from time to time. When changes are made, we will update the “Last Updated” date at the bottom of this page. Continued use of the Service after any changes constitutes acceptance of the new Terms.",
+            "lawTitle": "Governing Law",
+            "lawDesc": "These Terms shall be governed by and construed in accordance with the laws of your local jurisdiction unless otherwise required by law.",
+            "contactTitle": "Contact",
+            "contactDesc": "If you have any questions about these Terms, please contact us at:",
+            "contactForm": "Available in the app under Settings > Help & Support.",
+            "lastUpdated": "Last updated: May 31, 2025"
+        }
+    }
+}

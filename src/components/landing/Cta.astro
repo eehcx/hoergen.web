@@ -1,10 +1,20 @@
+---
+import { t } from "@/utils/i18n";
+
+export interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
+---
+
 <section class="border-white/20  border-b">
   <div class="mx-auto border-white/20  border-x max-w-7xl">
     <div class="bg-transparent duration-200 group hover:bg-orange ">
       <a
         href="/"
         class="text-white text-center items-center w-full bg-orange  duration-200 focus:outline-disc focus:ring-0 font-display font-medium hoder:rounded-0 inline-flex justify-center lg:py-12 lg:text-6xl px-4 py-6 rounded-full text-3xl"
-        >Get our app</a>
+        >{t(lang, 'cta')}</a>
     </div>
   </div>
 </section>
