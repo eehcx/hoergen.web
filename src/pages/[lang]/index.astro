@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from "../../components/landing/Hero.astro";
+import Intro from "../../components/landing/Intro.astro";
+import Services from "../../components/landing/Services.astro";
+import Work from "@/components/landing/Work.astro";
+import Cta from "../../components/landing/Cta.astro";
+import { languages } from '@/utils/i18n';
+
+export async function getStaticPaths() {
+    return languages.map(lang => ({
+        params: { lang }
+    }));
+}
+
+const { lang } = Astro.params;
+---
+
+<BaseLayout lang={lang}>
+    <Hero lang={lang} />
+    <Intro lang={lang} />
+    <Services lang={lang} />
+    <Cta lang={lang} />
+</BaseLayout>

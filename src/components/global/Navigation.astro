@@ -1,5 +1,7 @@
 ---
 import { t } from "@/utils/i18n";
+import { getLocalizedPath } from "@/utils/i18n";
+import LanguageSelector from "./LanguageSelector.astro";
 
 export interface Props {
   lang?: string;
@@ -19,20 +21,19 @@ const { lang = 'en' } = Astro.props;
         class="text-white text-center items-center w-full flex flex-col justify-between md:px-0 sm:flex-row sm:px-8"
       >
         <a
-          href="/"
+          href={getLocalizedPath(lang, '/')}
           class="text-white text-xs font-display inline-flex items-center md:px-8 md:text-center py-4 uppercase"
-          ><span>Hoergen ⏤ {t(lang, 'nav.title')}</span>
+        >
+          <span>Hoergen ⏤ {t(lang, 'nav.title')}</span>
         </a>
-        <a
-          href="/"
-          class="w-full bg-white duration-200 font-display hover:bg-black hover:text-white lg:ml-auto lg:w-auto px-6 py-4 sm:rounded-full text-black text-center text-xs uppercase"
-          >{t(lang, 'nav.stations')}</a
-        >
-        <a
-          href="https://studio.hoergen.com"
-          class="w-full bg-orange duration-200 font-display hover:bg-blacktext-white lg:w-auto px-6 py-4 sm:rounded-full text-black hover:text-gray-100 text-center text-xs uppercase"
-          >{t(lang, 'nav.getStarted')}</a
-        >
+        <div class="flex items-center gap-4">
+          <a
+            href="https://studio.hoergen.com"
+            class="bg-orange duration-200 font-display hover:bg-black hover:text-white px-6 py-4 sm:rounded-full text-black text-center text-xs uppercase"
+            >{t(lang, 'nav.getStarted')}</a
+          >
+          <LanguageSelector currentLang={lang} />
+        </div>
       </div>
     </div>
   </div>

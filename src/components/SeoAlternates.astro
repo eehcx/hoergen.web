@@ -1,0 +1,41 @@
+---
+import { getLanguageAlternatives, getPathWithoutLang } from '@/utils/i18n';
+
+export interface Props {
+  currentLang: string;
+  currentPath?: string;
+  canonicalUrl?: string;
+}
+
+const { currentLang, currentPath, canonicalUrl } = Astro.props;
+const currentPathStr = currentPath || Astro.url.pathname.toString();
+const pathWithoutLang = getPathWithoutLang(currentPathStr);
+const baseUrl = canonicalUrl || Astro.site || Astro.url.origin;
+
+const languageAlternatives = getLanguageAlternatives(pathWithoutLang).map(alt => ({
+  ...alt,
+  url: new URL(alt.path, baseUrl).toString(),
+  hreflang: alt.lang
+}));
+---
+
+<!-- Language alternates for SEO -->
+{languageAlternatives.map(alt => (
+  <link
+    rel="alternate"
+    hreflang={alt.hreflang}
+    href={alt.url}
+  />
+))}
+
+<!-- x-default for international SEO -->
+<link
+  rel="alternate"
+  hreflang="x-default"
+  href={languageAlternatives.find(alt => alt.isDefault)?.url || baseUrl}
+/>
+
+<!-- Canonical URL -->
+{canonicalUrl && (
+  <link rel="canonical" href={canonicalUrl} />
+)}

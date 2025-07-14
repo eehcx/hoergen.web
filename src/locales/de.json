@@ -1,0 +1,166 @@
+{
+    "site": {
+        "title": "Hoergen | Weltweite Übertragung von Underground House & Techno Kultur",
+        "description": "Wir übertragen Kultur, nicht nur Beats. Underground-Sender handverlesen für diejenigen, die noch zuhören."
+    },
+    "nav": {
+        "title": "Weltweites Radio",
+        "stations": "Sender",
+        "getStarted": "Loslegen"
+    },
+    "hero": {
+        "title": "Keine Algorithmen. Nur Menschen, die die tiefsten Underground-Frequenzen kuratieren. Einsteigen. Bleib roh. Bleib echt."
+    },
+    "testimonials": [
+        {
+            "quote": "Hier gibt es keine falsche Kuratierung. Nur echte Sender, echter Sound. Der Chat macht es so, als wäre ich wieder auf einem Warehouse-Party und würde über Musik reden, während sie läuft.",
+            "author": "Felix Jansen",
+            "source": "Underground-DJ / Köln"
+        },
+        {
+            "quote": "Endlich ein Radio, das es versteht. Kein Mainstream-Schnickschnack, nur pure Underground-Atmosphäre. Die Community ist eng verbunden und die Musik ist noch besser.",
+            "author": "Maya Tran",
+            "source": "Rave-Organisatorin / Berlin"
+        },
+        {
+            "quote": "Das rohe Interface? Wunderschön absichtlich. Keine Ablenkungen. Ich öffne Hörgen, drücke Play und es ist, als würde ich stundenlang verschwinden – genau wie es sein sollte.",
+            "author": "Denis Kramer",
+            "source": "Club-Fotograf / Leipzig"
+        },
+        {
+            "quote": "Es ist das Nächstbeste an HÖR, ohne einen Stream-Link oder VPN zu benötigen. Ehrliches Radio. Ehrlicher Techno. Kein Schnickschnack.",
+            "author": "Anika Söldner",
+            "source": "Nightlife-Autorin / Berlin"
+        }
+    ],
+    "intro": {
+        "about": "Hörgen Radio ist ein globaler Stream von Underground-Energie – handverlesene Sender, die im Rhythmus des Moments und der Stimmung der Nacht schwingen.",
+        "community": "Wir vereinen elektronische Frequenzen aus der ganzen Welt – von Berliner Kellern bis zu Late-Night-Sets in Tokio. Jeder Sender ist ausgewählt, um zu überraschen, zu inspirieren und dich hineinzuziehen. Mit Hörgen hörst du nicht nur zu – du bist Teil einer lebendigen Soundbewegung, die sich nie aufhört zu drehen."
+    },
+    "services": {
+        "title": "puls. gemeinschaft. absicht.",
+        "experiences": [
+            {
+                "title": "Mühelos entdecken:",
+                "description": "Entdecke deutsche Techno-Sender mit einer Oberfläche, die verschwindet, um dem Beat Platz zu machen. Finde deine ideale Frequenz ohne verwirrende Menüs oder visuelle Ablenkungen. Du wählst, du fließt."
+            },
+            {
+                "title": "Erinnerung in jedem Beat:",
+                "description": "Jeder Sender, den du einschaltest, wird Teil deiner Reise. Deine Geschichte und Favoriten bilden ein persönliches Archiv – ein Klangtagebuch von allem, was dich bewegt hat."
+            },
+            {
+                "title": "Für Raver gemacht:",
+                "description": "Dunkel, reduziert und ehrlich. Hörgen ist wie ein digitaler Club gestaltet: keine Likes, keine Filter. Nur roher Sound, echte Emotionen und ein Raum für diejenigen, die es wissen."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Bereit, Ihre digitale Präsenz zu transformieren?",
+        "subtitle": "Lassen Sie uns verbinden und Ihre Vision zur Realität machen.",
+        "button": "Unsere App holen"
+    },
+    "footer": {
+        "title": "Hoergen Radio",
+        "description": "Wir übertragen Kultur, nicht nur Beats. Underground-Sender handverlesen für diejenigen, die noch zuhören.",
+        "links": {
+            "privacyPolicy": "Datenschutzrichtlinie",
+            "termsOfService": "Nutzungsbedingungen"
+        }
+    },
+    "privacy": {
+        "title": "Datenschutzrichtlinie",
+        "intro": "Vielen Dank, dass du Hörgen Radio nutzt. Deine Privatsphäre ist uns extrem wichtig. Diese Datenschutzrichtlinie erklärt, wie wir deine persönlichen Informationen erfassen, verwenden, speichern und schützen, wenn du mit unserer mobilen Anwendung und verwandten Diensten interagierst.",
+        "sections": {
+            "informationTitle": "Informationen, die wir erfassen",
+            "informationIntro": "Wir erfassen folgende Arten von Informationen:",
+            "personalTitle": "Persönliche Informationen",
+            "personalDesc": "Direkt von dir bereitgestellt bei der Anmeldung, beim Einloggen oder bei der Aktualisierung deines Profils. Dazu können dein Name, deine E-Mail-Adresse und Profilpräferenzen gehören.",
+            "usageTitle": "Nutzungsdaten",
+            "usageDesc": "Informationen darüber, wie du die App nutzt (z.B. gespielte Sender, Suchanfragen, Favoriten, Hörverlauf), um dein Erlebnis zu verbessern und Inhalte zu empfehlen.",
+            "deviceTitle": "Geräteinformationen",
+            "deviceDesc": "Technische Details wie Gerätemodell, Betriebssystem und App-Version für Debugging und Support.",
+            "authTitle": "Authentifizierungs- und Zahlungsdaten",
+            "authDesc": "Bei der Nutzung von Funktionen wie Abonnements oder Account-Verknüpfungen (z.B. Firebase Auth, Stripe) können wir auf Authentifizierungs-Tokens oder begrenzte Abrechnungsmetadaten zugreifen. Sensible Informationen wie Kreditkartennummern werden sicher von vertrauenswürdigen Drittanbietern (z.B. Stripe) behandelt und niemals direkt von uns gespeichert.",
+            "useTitle": "Wie wir deine Informationen verwenden",
+            "useIntro": "Wir verwenden die gesammelten Informationen, um:",
+            "useList": [
+                "Die Kernfunktionalität von Hörgen Radio bereitzustellen und aufrechtzuerhalten",
+                "Dein Erlebnis zu personalisieren und Empfehlungen zu verbessern",
+                "Wichtige Updates, Werbeaktionen oder technische Mitteilungen zu kommunizieren",
+                "Leistung, Sicherheit und Zuverlässigkeit unserer Dienste zu überwachen und zu verbessern",
+                "Rechtliche Verpflichtungen zu erfüllen und Missbrauch oder Betrug zu verhindern"
+            ],
+            "protectionTitle": "Datenschutz",
+            "protectionDesc": "Wir verwenden moderne, branchenübliche Sicherheitspraktiken – einschließlich verschlüsselter Verbindungen (HTTPS), sicherer Firebase-Infrastruktur und Zugriffskontrollen –, um deine Daten zu schützen. Trotz unserer Bemühungen kann kein Online-System zu 100 % sicher garantiert werden.",
+            "childrenTitle": "Privatsphäre von Kindern & Chat-Moderation",
+            "childrenDesc1": "Hörgen Radio ist nicht für Kinder unter 13 Jahren bestimmt. Wir erfassen oder speichern wissentlich keine persönlichen Informationen von Nutzern unter diesem Alter. Wenn du ein Elternteil oder Vormund bist und glaubst, dass dein Kind uns persönliche Daten zur Verfügung gestellt hat, kontaktiere uns bitte sofort unter contact@hoergen.com, und wir werden Schritte unternehmen, um solche Informationen zu entfernen.",
+            "childrenDesc2": "Unsere mobile App enthält eine Chat-Funktion, die die Interaktion der Nutzer verbessern soll. Um eine sichere und respektvolle Umgebung zu gewährleisten, verwenden wir die Perspective API (ein von Google bereitgestelltes Tool), um Nachrichten automatisch auf potenziell schädliche, toxische oder unangemessene Inhalte zu überprüfen. Dieses Moderationssystem kann Nachrichteninhalte in Echtzeit verarbeiten, speichert diese Daten jedoch nicht oder verknüpft sie mit persönlich identifizierbaren Informationen.",
+            "childrenDesc3": "Nutzer unter 18 Jahren sollten diese Richtlinie mit einem Elternteil oder Vormund überprüfen, bevor sie die App nutzen. Durch die Nutzung unserer Dienste bestätigst du, dass du mindestens 13 Jahre alt bist oder dies mit Einwilligung deiner Eltern tust.",
+            "rightsTitle": "Deine Rechte und Wahlmöglichkeiten",
+            "rightsIntro": "Du hast das Recht:",
+            "rightsList": [
+                "Auf deine persönlichen Informationen zuzugreifen, sie zu korrigieren oder zu löschen",
+                "Deine Einwilligung jederzeit zu widerrufen oder deinen Konto zu deaktivieren",
+                "Uns mit Bedenken oder Anfragen bezüglich deiner Daten zu kontaktieren"
+            ],
+            "rightsContact": "Um diese Rechte auszuüben, kontaktiere uns direkt unter contact@hoergen.com",
+            "thirdTitle": "Drittanbieterdienste",
+            "thirdDesc": "Hörgen Radio verlässt sich auf Dienste wie Firebase (für Authentifizierung, Firestore, Analysen) und Stripe (für Zahlungen). Diese Anbieter haben ihre eigenen Datenschutzpraktiken, und wir empfehlen, deren Richtlinien zu überprüfen, um zu verstehen, wie sie mit deinen Informationen umgehen.",
+            "contactTitle": "Kontaktiere uns",
+            "contactDesc1": "Wenn du Fragen oder Bedenken zu dieser Datenschutzrichtlinie oder zur Handhabung deiner Daten hast, erreichst du uns unter:",
+            "contactForm": "Verfügbar in der App unter Einstellungen > Hilfe & Support.",
+            "responseTime": "Wir bemühen uns, alle Anfragen innerhalb von 48 Stunden zu beantworten."
+        }
+    },
+    "terms": {
+        "title": "Nutzungsbedingungen",
+        "intro": "Diese Nutzungsbedingungen („Bedingungen“) regeln deinen Zugang zu und die Nutzung von Hörgen Radio und seinen verwandten Diensten („der Dienst“). Durch die Nutzung des Dienstes erklärst du dich damit einverstanden, diese Bedingungen einzuhalten und rechtlich an sie gebunden zu sein. Wenn du nicht einverstanden bist, nutze bitte den Dienst nicht.",
+        "sections": {
+            "eligibilityTitle": "Teilnahmeberechtigung",
+            "eligibilityDesc": "Du musst mindestens 13 Jahre alt sein, um Hörgen Radio zu nutzen. Wenn du unter 18 bist, musst du die Erlaubnis eines Elternteils oder gesetzlichen Vormunds haben. Wir erfassen oder speichern wissentlich keine persönlichen Daten von Kindern unter 13 Jahren.",
+            "conductTitle": "Nutzerverhalten",
+            "conductIntro": "Du verpflichtest dich, keine Aktivitäten durchzuführen, die den Dienst beeinträchtigen oder stören oder die Rechte anderer verletzen. Verbotenes Verhalten umfasst (ist aber nicht beschränkt auf):",
+            "conductList": [
+                "Belästigung, Missbrauch oder bedrohliche Sprache in Chats oder anderen Funktionen",
+                "Spam, irreführende Inhalte oder unbefugte Werbung",
+                "Veröffentlichung von anstößigen, hasserfüllten oder illegalen Materialien",
+                "Versuch, unbefugten Zugriff auf unsere Systeme zu erlangen"
+            ],
+            "conductModeration": "Wir verwenden automatisierte Moderations-Tools (z.B. Perspective API von Google), um toxische oder schädliche Sprache in Chat-Funktionen zu erkennen und zu verwalten.",
+            "suspensionTitle": "Kontosperrung",
+            "suspensionDesc": "Wir behalten uns das Recht vor, deinen Zugang zum Dienst jederzeit mit oder ohne vorherige Ankündigung zu sperren oder zu kündigen, wenn wir glauben, dass du gegen diese Bedingungen verstoßen hast oder aus einem anderen als angemessen erachteten Grund.",
+            "ipTitle": "Geistiges Eigentum",
+            "ipDesc": "Hörgen Radio und sein Inhalt – einschließlich Logos, Oberfläche und Marken – sind durch Urheberrechts- und andere Gesetze zum geistigen Eigentum geschützt. Du darfst keinen Teil des Dienstes ohne unsere ausdrückliche Erlaubnis verwenden, kopieren oder verteilen.",
+            "disclaimerTitle": "Haftungsausschluss",
+            "disclaimerDesc": "Der Dienst wird „wie besehen“ und „wie verfügbar“ ohne jegliche Gewährleistung bereitgestellt. Wir garantieren nicht die Genauigkeit, Verfügbarkeit oder Zuverlässigkeit des Dienstes.",
+            "limitationTitle": "Haftungsbeschränkung",
+            "limitationDesc": "Im gesetzlich zulässigen Rahmen haftet Hörgen Radio nicht für indirekte, zufällige, besondere oder Folgeschäden, die aus der Nutzung oder Unfähigkeit zur Nutzung des Dienstes resultieren.",
+            "changesTitle": "Änderungen der Bedingungen",
+            "changesDesc": "Wir können diese Bedingungen von Zeit zu Zeit ändern. Wenn Änderungen vorgenommen werden, aktualisieren wir das „Zuletzt aktualisiert“-Datum unten auf dieser Seite. Die fortgesetzte Nutzung des Dienstes nach Änderungen bedeutet die Annahme der neuen Bedingungen.",
+            "lawTitle": "Anwendbares Recht",
+            "lawDesc": "Diese Bedingungen unterliegen den Gesetzen deiner lokalen Gerichtsbarkeit, sofern nicht gesetzlich anders vorgeschrieben.",
+            "contactTitle": "Kontakt",
+            "contactDesc": "Wenn du Fragen zu diesen Bedingungen hast, kontaktiere uns bitte unter:",
+            "contactForm": "Verfügbar in der App unter Einstellungen > Hilfe & Support.",
+            "lastUpdated": "Zuletzt aktualisiert: 31. Mai 2025"
+        }
+    },
+    "feedback": {
+        "title": "Teilen Sie Ihr Feedback",
+        "subtitle": "Helfen Sie uns, uns zu verbessern, indem Sie Ihre Gedanken und Vorschläge teilen.",
+        "form": {
+            "email": "E-Mail",
+            "emailPlaceholder": "ihre.email@beispiel.com",
+            "message": "Nachricht",
+            "messagePlaceholder": "Bitte teilen Sie Ihr Feedback im Detail...",
+            "submit": "Feedback senden",
+            "sending": "Wird gesendet...",
+            "cancel": "Abbrechen"
+        },
+        "success": {
+            "title": "Vielen Dank!",
+            "message": "Ihr Feedback wurde erfolgreich übermittelt. Wir schätzen, dass Sie sich die Zeit genommen haben, uns zu helfen, uns zu verbessern.",
+            "backHome": "Zurück zur Startseite"
+        }
+    }
+}

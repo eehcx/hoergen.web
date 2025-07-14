@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { languages, t } from '@/utils/i18n';
+
+export async function getStaticPaths() {
+    return languages.map(lang => ({ 
+        params: { lang } 
+    }));
+}
+
+const { lang } = Astro.params;
+const terms = t(lang, 'terms');
+---
+
+<BaseLayout title={`${terms.title} | Hoergen`} lang={lang}>
+    <section class="border-white/20 border-b">
+        <div class="mx-auto border-white/20 border-x max-w-7xl">
+            <div class="px-4 py-24 max-w-4xl mx-auto">
+                <h1 class="text-4xl font-display text-center mb-6 text-white mt-24">{terms.title}</h1>
+                <p class="text-eagle mb-4">{terms.intro}</p>
+                <h2 class="text-2xl font-display mt-6 mb-4 text-white">{terms.sections.eligibilityTitle}</h2>
+                <p class="text-eagle mb-4">{terms.sections.eligibilityDesc}</p>
+                <h2 class="text-2xl font-display mt-6 mb-4 text-white">{terms.sections.conductTitle}</h2>
+                <p class="text-eagle mb-4">{terms.sections.conductIntro}</p>
+                <ul class="list-disc pl-6 text-eagle mb-4">
+                    {terms.sections.conductList.map((item) => <li>{item}</li>)}
+                </ul>
+                <h2 class="text-2xl font-display mt-6 mb-4 text-white">{terms.sections.contentTitle}</h2>
+                <p class="text-eagle mb-4">{terms.sections.contentDesc}</p>
+                <h2 class="text-2xl font-display mt-6 mb-4 text-white">{terms.sections.terminationTitle}</h2>
+                <p class="text-eagle mb-4">{terms.sections.terminationDesc}</p>
+                <h2 class="text-2xl font-display mt-6 mb-4 text-white">{terms.sections.changesTitle}</h2>
+                <p class="text-eagle mb-4">{terms.sections.changesDesc}</p>
+                <h2 class="text-2xl font-display mt-6 mb-4 text-white">{terms.sections.contactTitle}</h2>
+                <p class="text-eagle mb-4">{terms.sections.contactDesc}</p>
+                <p class="text-eagle mb-2"><strong>Email:</strong> <a href="mailto:contact@hoergen.com" class="hover:underline">contact@hoergen.com</a></p>
+                <p class="text-eagle">{terms.sections.lastUpdated}</p>
+            </div>
+        </div>
+    </section>
+</BaseLayout>

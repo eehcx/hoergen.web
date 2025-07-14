@@ -9,7 +9,7 @@
         "getStarted": "Comenzar"
     },
     "hero": {
-        "title": "Sin algoritmos. Solo humanos seleccionando las frecuencias underground más profundas. Conéctate. Mantente vivo. Mantente real."
+        "title": "Sin algoritmos. Solo humanos seleccionando las frecuencias más underground. Entra. Sin poses. Solo esencial."
     },
     "testimonials": [
         {
@@ -54,7 +54,11 @@
             }
         ]
     },
-    "cta": "Obtener nuestra app",
+    "cta": {
+        "title": "¿Listo para transformar tu presencia digital?",
+        "subtitle": "Conectemos y convirtamos tu visión en realidad.",
+        "button": "Obtener nuestra app"
+    },
     "footer": {
         "title": "Hoergen Radio",
         "description": "Transmitiendo cultura, no solo ritmos. Estaciones underground seleccionadas para quienes aún escuchan.",
@@ -139,6 +143,24 @@
             "contactDesc": "Si tienes preguntas sobre estos Términos, contáctanos en:",
             "contactForm": "Disponible en la app en Configuración > Ayuda y Soporte.",
             "lastUpdated": "Última actualización: 31 de mayo de 2025"
+        }
+    },
+    "feedback": {
+        "title": "Comparte tu opinión",
+        "subtitle": "Ayúdanos a mejorar compartiendo tus pensamientos y sugerencias.",
+        "form": {
+            "email": "Correo electrónico",
+            "emailPlaceholder": "tu.correo@ejemplo.com",
+            "message": "Mensaje",
+            "messagePlaceholder": "Comparte tu opinión en detalle...",
+            "submit": "Enviar opinión",
+            "sending": "Enviando...",
+            "cancel": "Cancelar"
+        },
+        "success": {
+            "title": "¡Gracias!",
+            "message": "Tu opinión ha sido enviada exitosamente. Apreciamos que te hayas tomado el tiempo para ayudarnos a mejorar.",
+            "backHome": "Volver al inicio"
         }
     }
 }

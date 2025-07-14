@@ -1,5 +1,5 @@
 ---
-import { t } from "@/utils/i18n";
+import { t, getLocalizedPath } from "@/utils/i18n";
 
 export interface Props {
   lang?: string;
@@ -21,8 +21,8 @@ const { lang = 'en' } = Astro.props;
     <div class="mx-auto border-white/20 border-t flex flex-col p-8">
       <p class="text-white text-center text-sm font-display">
         Copyright © 2025 Hörgen. All rights reserved. <br />
-        <a href="/privacy" class="text-eagle hover:underline">{t(lang, 'footer.links.privacyPolicy')}</a> |
-        <a href="/terms" class="text-eagle hover:underline">{t(lang, 'footer.links.termsOfService')}</a>
+        <a href={getLocalizedPath(lang, '/privacy')} class="text-eagle hover:underline">{t(lang, 'footer.links.privacyPolicy')}</a> |
+        <a href={getLocalizedPath(lang, '/terms')} class="text-eagle hover:underline">{t(lang, 'footer.links.termsOfService')}</a>
       </p>
     </div>
   </div>

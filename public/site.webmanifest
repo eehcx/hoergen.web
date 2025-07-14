@@ -1,0 +1,50 @@
+{
+  "name": "Hörgen Radio - Underground Electronic Music",
+  "short_name": "Hörgen",
+  "description": "Transmitiendo cultura, no solo ritmos. Estaciones underground seleccionadas para quienes aún escuchan.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#26E056",
+  "orientation": "portrait-primary",
+  "categories": ["music", "entertainment", "audio"],
+  "lang": "es",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/avatars/icon.png",
+      "sizes": "150x150",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/avatars/icon.png", 
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/avatars/icon.png",
+      "sizes": "512x512", 
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Feedback",
+      "short_name": "Feedback",
+      "description": "Envía tu opinión",
+      "url": "/feedback",
+      "icons": [
+        {
+          "src": "/avatars/icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

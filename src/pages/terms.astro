@@ -1,13 +1,17 @@
 ---
 // src/pages/terms.astro
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCurrentLang, t } from '@/utils/i18n';
+import { defaultLang, t } from '@/utils/i18n';
 
-const lang = getCurrentLang(Astro.url);
+const lang = defaultLang; // Usar idioma por defecto temporalmente
 const terms = t(lang, 'terms');
 ---
 
-<BaseLayout title={terms.title}>
+<script define:vars={{ pageTitle: `${terms.title} | Hoergen` }}>
+    document.title = pageTitle;
+</script>
+
+<BaseLayout title={terms.title} lang={lang}>
     <section class="border-white/20 border-b">
         <div class="mx-auto border-white/20 border-x max-w-7xl">
             <div class="px-4 py-24 max-w-4xl mx-auto">

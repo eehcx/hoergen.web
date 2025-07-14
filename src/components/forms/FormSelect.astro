@@ -1,0 +1,54 @@
+---
+export interface Props {
+    label: string;
+    name: string;
+    options: { value: string; label: string }[];
+    placeholder?: string;
+    required?: boolean;
+    value?: string;
+    className?: string;
+}
+
+const { 
+    label, 
+    name, 
+    options,
+    placeholder = 'Select an option', 
+    required = false, 
+    value = '',
+    className = ''
+} = Astro.props;
+
+const selectId = `select-${name}`;
+---
+
+<div class={`form-field ${className}`}>
+    <label for={selectId} class="block text-white font-medium mb-2">
+        {label}
+        {required && <span class="text-orange">*</span>}
+    </label>
+    <select
+        id={selectId}
+        name={name}
+        required={required}
+        class="w-full px-4 py-3 bg-black border border-white/20 text-white focus:border-orange focus:outline-none transition-colors duration-200"
+    >
+        <option value="">{placeholder}</option>
+        {options.map(option => (
+        <option value={option.value} selected={value === option.value}>
+            {option.label}
+        </option>
+        ))}
+    </select>
+</div>
+
+<style>
+    select option {
+        background-color: #121212;
+        color: #F5F5F5;
+    }
+
+    .form-field select:focus {
+        box-shadow: 0 0 0 2px rgba(38, 224, 86, 0.2);
+    }
+</style>

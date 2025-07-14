@@ -6,6 +6,7 @@ export interface Props {
 }
 
 const { lang = 'en' } = Astro.props;
+const ctaData = t(lang, 'cta');
 ---
 
 <section class="border-white/20  border-b">
@@ -14,7 +15,7 @@ const { lang = 'en' } = Astro.props;
       <a
         href="/"
         class="text-white text-center items-center w-full bg-orange  duration-200 focus:outline-disc focus:ring-0 font-display font-medium hoder:rounded-0 inline-flex justify-center lg:py-12 lg:text-6xl px-4 py-6 rounded-full text-3xl"
-        >{t(lang, 'cta')}</a>
+        >{ctaData.button}</a>
     </div>
   </div>
 </section>

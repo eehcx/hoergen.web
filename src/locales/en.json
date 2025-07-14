@@ -53,7 +53,29 @@
                 "description": "Dark, stripped down, and honest. Hörgen is designed like a digital club: no likes, no filters. Just raw sound, real emotion, and a space made for those who know."
             }
         ]    },
-    "cta": "Get our app",
+    "cta": {
+        "title": "Ready to transform your digital presence?",
+        "subtitle": "Let's connect and turn your vision into reality.",
+        "button": "Get our app"
+    },
+    "feedback": {
+        "title": "Share Your Feedback",
+        "subtitle": "Help us improve by sharing your thoughts and suggestions.",
+        "form": {
+            "email": "Email",
+            "emailPlaceholder": "your.email@example.com",
+            "message": "Message",
+            "messagePlaceholder": "Please share your feedback in detail...",
+            "submit": "Send Feedback",
+            "sending": "Sending...",
+            "cancel": "Cancel"
+        },
+        "success": {
+            "title": "Thank You!",
+            "message": "Your feedback has been submitted successfully. We appreciate you taking the time to help us improve.",
+            "backHome": "Back to Home"
+        }
+    },
     "footer": {
         "title": "Hoergen Radio",
         "description": "Broadcasting culture, not just beats. Underground stations handpicked for those who still listen.",

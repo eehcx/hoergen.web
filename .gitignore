@@ -38,3 +38,7 @@ pnpm-lock.yaml
 firebase.json
 firebase-debug.log
 firebase.ts
+.env
+
+# Ignore Firebase configuration files
+dataconnect-debug.log
