@@ -162,5 +162,93 @@
             "message": "Vos commentaires ont été soumis avec succès. Nous apprécions que vous ayez pris le temps de nous aider à nous améliorer.",
             "backHome": "Retour à l'accueil"
         }
+    },
+    "creators": {
+      "headerTitle": "Pour les créateurs, DJs et visionnaires de l’underground",
+      "hero": {
+        "title": "Libérez votre fréquence",
+        "subtitle": "Diffusez votre son. Développez votre communauté. Soyez récompensé pour votre art."
+      },
+      "benefitsTitle": "Pourquoi devenir Creator ?",
+      "benefits": [
+        {
+          "title": "Distribution radio mondiale",
+          "desc": "Votre son, sans filtre. Touchez des auditeurs underground dans le monde entier — direct, brut, sans algorithme."
+        },
+        {
+          "title": "Analyses en temps réel",
+          "desc": "Voyez qui écoute, où et combien de temps. Adaptez votre émission à la volée — pas de suppositions, que des faits."
+        },
+        {
+          "title": "Modération & support communautaire",
+          "desc": "Gardez votre chat sous contrôle. Outils intégrés pour une gestion instantanée. Réseau privé pour des conseils réels — sans bruit."
+        }
+      ],
+      "faqTitle": "Questions fréquentes",
+      "faq": [
+        {
+          "q": "Qui peut rejoindre en tant que Creator ?",
+          "a": "Tout DJ, station ou collectif underground axé sur la culture sonore."
+        },
+        {
+          "q": "Comment fonctionnent les analyses en temps réel ?",
+          "a": "Les tableaux de bord se mettent à jour instantanément avec les statistiques d’audience, les localisations et la durée d’écoute."
+        },
+        {
+          "q": "Puis-je gérer le chat de ma chaîne ?",
+          "a": "Oui : configurez des filtres automatiques, assignez des modérateurs et mettez en sourdine ou bannissez des utilisateurs depuis votre panneau."
+        },
+        {
+          "q": "Quel type de support proposez-vous ?",
+          "a": "Support technique continu et accès à un forum privé où les créateurs partagent ressources et astuces."
+        }
+      ],
+      "cta": {
+        "title": "Prêt à rejoindre le mouvement ?",
+        "button": "Devenir Creator",
+        "desc": "Passez à l’action. Diffusez votre son. Façonnez l’underground — à votre façon, sans compromis."
+      }
+    },
+    "listeners": {
+      "headerTitle": "Pour les auditeurs & explorateurs underground",
+      "hero": {
+        "title": "Écoutez. Découvrez. Appartenez.",
+        "subtitle": "Découvrez la meilleure radio underground du monde. Pas d’algorithmes. Pas de bruit. Juste du son pur et une vraie communauté."
+      },
+      "benefitsTitle": "Pourquoi écouter sur Hörgen ?",
+      "benefits": [
+        {
+          "title": "Stations sélectionnées",
+          "desc": "Chaque station est choisie pour son authenticité et sa qualité. Découvrez de nouveaux sons et des pépites cachées du monde entier."
+        },
+        {
+          "title": "Aucune distraction",
+          "desc": "Une interface minimale qui vous permet de vous concentrer sur la musique. Pas de pubs, pas de fouillis — juste vous et le beat."
+        },
+        {
+          "title": "Connexion communautaire",
+          "desc": "Participez aux chats en direct, partagez vos découvertes et connectez-vous avec d’autres passionnés de musique underground dans le monde entier."
+        }
+      ],
+      "faqTitle": "Questions fréquentes",
+      "faq": [
+        {
+          "q": "Hörgen est-il gratuit ?",
+          "a": "Oui ! L’écoute est toujours gratuite. Aucun abonnement ni frais cachés."
+        },
+        {
+          "q": "Puis-je enregistrer mes stations préférées ?",
+          "a": "Absolument. Créez votre propre archive de favoris et d’historique d’écoute."
+        },
+        {
+          "q": "Comment rejoindre le chat communautaire ?",
+          "a": "Il suffit d’écouter une station et de rejoindre la conversation en temps réel."
+        }
+      ],
+      "cta": {
+        "title": "Prêt à vivre la vraie radio ?",
+        "button": "Commencer à écouter",
+        "desc": "Plongez dans l’underground. Découvrez votre nouveau son préféré — aucune inscription requise."
+      }
     }
 }

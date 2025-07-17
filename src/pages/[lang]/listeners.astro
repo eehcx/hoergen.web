@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { languages, t } from '@/utils/i18n';
+
+export async function getStaticPaths() {
+  return languages.map(lang => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const listeners = t(lang, 'listeners');
+---
+
+<BaseLayout
+    title='Listen Underground | Hörgen Radio – Discover Real Sound & Community'
+    desc='Experience Hörgen Radio as a listener: curated underground stations, distraction-free interface, live chat, and a global community. No algorithms, just pure music culture.'
+    lang={lang}
+>
+    <main class="min-h-screen bg-black">
+        {/* Header Section */}
+        <section class="relative border-white/20 border-b bg-gradient-to-br from-black via-[#181c1a] to-[#1a2e1f] overflow-hidden">
+        <div class="mx-auto border-white/20 border-x max-w-7xl">
+            <div class="relative px-8 py-24 text-center flex flex-col items-center justify-center">
+            <div class="absolute inset-0 pointer-events-none z-0">
+                <div class="absolute left-0 top-0 w-64 h-64 bg-orange/10 rounded-full blur-3xl animate-pulse-slow"></div>
+                <div class="absolute right-0 bottom-0 w-64 h-64 bg-eagle/10 rounded-full blur-2xl animate-pulse-slower"></div>
+            </div>
+            <span class="relative z-10 inline-block bg-black/60 border border-orange/40 rounded-none px-6 py-2 uppercase text-orange font-display tracking-widest text-xs mb-6 shadow-lg">
+                {listeners.headerTitle}
+            </span>
+            <h1 class="relative z-10 text-white font-display uppercase text-4xl md:text-6xl lg:text-7xl mb-6 drop-shadow-lg tracking-tight">
+                <span class="bg-gradient-to-r from-orange via-white to-eagle bg-clip-text text-transparent">
+                {listeners.hero.title}
+                </span>
+            </h1>
+            <p class="relative z-10 text-eagle text-lg md:text-2xl max-w-2xl mx-auto mb-2 font-medium">
+                {listeners.hero.subtitle}
+            </p>
+            </div>
+        </div>
+        </section>
+
+        <!-- Why Listen on Hörgen? -->
+        <section class="border-white/20 border-b bg-black">
+          <div class="mx-auto border-white/20 border-x max-w-7xl">
+            <div class="p-8">
+              <h2 class="text-white font-display uppercase text-3xl lg:text-6xl mb-8 tracking-tight">{listeners.benefitsTitle}</h2>
+            </div>
+            <div class="text-white text-xs gap-3 gap-y-12 grid grid-cols-1 md:grid-cols-3 mx-auto p-8 sm:grid-cols-2 md:gap-y-0">
+                {listeners.benefits.map((benefit: any) => (
+                  <div class="flex flex-col bg-black px-6 py-8 text-left shadow-none rounded-none">
+                      <span class="text-white font-display text-xl mb-3 tracking-tight">{benefit.title}</span>
+                      <p class="text-eagle text-base leading-relaxed">
+                      {benefit.desc}
+                      </p>
+                  </div>
+                ))}
+            </div>
+          </div>
+        </section>
+
+        <!-- Frequently Asked Questions -->
+        <section class="border-white/20 border-b bg-black">
+          <div class="mx-auto border-white/20 border-x max-w-7xl px-0 py-16">
+            <h2 class="text-white font-display text-2xl lg:text-4xl mb-10 px-8 text-left tracking-tight">{listeners.faqTitle}</h2>
+            <div class="w-full">
+              <div class="divide-y divide-white/20 w-full">
+                  {listeners.faq.map((faq: any) => (
+                    <details class="group w-full">
+                      <summary class="cursor-pointer px-8 py-6 text-white font-semibold text-lg flex justify-between items-center select-none hover:text-orange transition-colors">
+                        {faq.q}
+                        <span class="ml-2 text-eagle group-open:rotate-90 transition-transform">&#9654;</span>
+                      </summary>
+                      <div class="px-8 pb-6 pt-2 text-eagle text-base bg-black">
+                          {faq.a}
+                      </div>
+                    </details>
+                  ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="border-white/20 border-b bg-black">
+            <div class="mx-auto border-white/20 border-x max-w-7xl px-8 py-20 flex flex-col items-center">
+                <h2 class="text-white font-display text-3xl lg:text-5xl mb-8 text-center tracking-tight uppercase">
+                {listeners.cta.title}
+                </h2>
+                <a
+                href="/"
+                class="inline-block bg-orange text-black font-display font-bold px-16 py-6 text-2xl uppercase tracking-widest hover:bg-orange/80 transition-colors border-2 border-black rounded-none shadow-none text-center"
+                style="letter-spacing:0.15em"
+                >
+                    {listeners.cta.button}
+                </a>
+                <p class="mt-6 text-eagle text-center text-lg max-w-xl">
+                    {listeners.cta.desc}
+                </p>
+            </div>
+        </section>
+    </main>
+</BaseLayout>

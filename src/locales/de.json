@@ -162,5 +162,93 @@
             "message": "Ihr Feedback wurde erfolgreich übermittelt. Wir schätzen, dass Sie sich die Zeit genommen haben, uns zu helfen, uns zu verbessern.",
             "backHome": "Zurück zur Startseite"
         }
+    },
+    "creators": {
+        "headerTitle": "Für Creators, DJs & Underground-Visionäre",
+        "hero": {
+            "title": "Entfalte deine Frequenz",
+            "subtitle": "Sende deinen Sound. Baue deine Community auf. Werde für deine Kunst belohnt."
+        },
+        "benefitsTitle": "Warum Creator werden?",
+        "benefits": [
+            {
+                "title": "Globale Radioverteilung",
+                "desc": "Dein Sound, ungefiltert. Erreiche Underground-Hörer weltweit – direkt, roh und ohne Algorithmen."
+            },
+            {
+                "title": "Echtzeit-Analysen",
+                "desc": "Sieh, wer zuhört, wo und wie lange. Passe deine Show spontan an – keine Vermutungen, nur Fakten."
+            },
+            {
+                "title": "Moderation & Community-Support",
+                "desc": "Halte deinen Chat sauber. Integrierte Tools für sofortige Kontrolle. Privates Netzwerk für echten Rat – kein Lärm."
+            }
+        ],
+        "faqTitle": "Häufige Fragen",
+        "faq": [
+            {
+                "q": "Wer kann als Creator mitmachen?",
+                "a": "Jeder DJ, jede Station oder jedes Underground-Kollektiv mit echtem Fokus auf Soundkultur."
+            },
+            {
+                "q": "Wie funktionieren die Echtzeit-Analysen?",
+                "a": "Dashboards aktualisieren sich sofort mit Hörerstatistiken, Standorten und Hördauer."
+            },
+            {
+                "q": "Kann ich meinen Channel-Chat verwalten?",
+                "a": "Ja: Richte Auto-Filter ein, weise Moderatoren zu und stummschalte oder sperre Nutzer direkt im Panel."
+            },
+            {
+                "q": "Welche Art von Support wird geboten?",
+                "a": "Laufender technischer Support und Zugang zu einem privaten Forum, in dem Creators Ressourcen und Tipps teilen."
+            }
+        ],
+        "cta": {
+            "title": "Bereit, Teil der Bewegung zu werden?",
+            "button": "Creator werden",
+            "desc": "Mach den nächsten Schritt. Sende deinen Sound. Präge den Underground – auf deine Art, ohne Kompromisse."
+        }
+    },
+    "listeners": {
+        "headerTitle": "Für Hörer & Underground-Entdecker",
+        "hero": {
+            "title": "Einschalten. Entdecken. Dazugehören.",
+            "subtitle": "Erlebe das beste Underground-Radio der Welt. Keine Algorithmen. Kein Lärm. Nur purer Sound und echte Community."
+        },
+        "benefitsTitle": "Warum Hörgen hören?",
+        "benefits": [
+            {
+                "title": "Kuratiere Sender",
+                "desc": "Jeder Sender ist handverlesen für Authentizität und Qualität. Entdecke neue Klänge und versteckte Perlen aus aller Welt."
+            },
+            {
+                "title": "Keine Ablenkungen",
+                "desc": "Eine minimalistische Oberfläche, die dich auf die Musik fokussieren lässt. Keine Werbung, kein Durcheinander – nur du und der Beat."
+            },
+            {
+                "title": "Community-Verbindung",
+                "desc": "Nimm an Live-Chats teil, teile deine Entdeckungen und vernetze dich mit anderen Underground-Musikliebhabern weltweit."
+            }
+        ],
+        "faqTitle": "Häufige Fragen",
+        "faq": [
+            {
+                "q": "Ist Hörgen kostenlos?",
+                "a": "Ja! Das Hören ist immer kostenlos. Keine Abos oder versteckten Gebühren."
+            },
+            {
+                "q": "Kann ich meine Lieblingssender speichern?",
+                "a": "Absolut. Erstelle dein eigenes Archiv aus Favoriten und Hörverlauf."
+            },
+            {
+                "q": "Wie kann ich am Community-Chat teilnehmen?",
+                "a": "Einfach einen Sender einschalten und in Echtzeit am Gespräch teilnehmen."
+            }
+        ],
+        "cta": {
+            "title": "Bereit für echtes Radio?",
+            "button": "Jetzt reinhören",
+            "desc": "Tauche ein in den Underground. Entdecke deinen neuen Lieblingssound – ganz ohne Anmeldung."
+        }
     }
 }

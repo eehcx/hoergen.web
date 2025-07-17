@@ -6,37 +6,38 @@ import { defaultLang, getCurrentLang } from "@/utils/i18n";
 
 export interface Props {
   title?: string;
+  desc?: string;
   lang?: string;
 }
 
-const { title, lang } = Astro.props;
+const { title, desc, lang } = Astro.props;
 const currentLang = lang || getCurrentLang(Astro.url.pathname) || defaultLang;
 ---
 
 <html lang={currentLang} class="selection:bg-orange  selection:text-white">
   <head>
-    <BaseHead title={title} lang={currentLang} />
+      <BaseHead title={title} desc={desc} lang={currentLang} />
     <script is:inline>
       // Client-side language detection and redirection
       (function() {
         const supportedLangs = ['en', 'de', 'fr', 'ru', 'es'];
         const defaultLang = 'es';
         const currentPath = window.location.pathname;
-        
+
         // Don't run if we're already on a language-prefixed URL
-        const hasLangPrefix = supportedLangs.some(lang => 
+        const hasLangPrefix = supportedLangs.some(lang =>
           currentPath.startsWith('/' + lang + '/') || currentPath === '/' + lang
         );
-        
+
         // Only handle root path redirection
         if (currentPath !== '/' || hasLangPrefix) {
           return;
         }
-        
+
         // Get browser language preference
         const browserLang = navigator.language.split('-')[0].toLowerCase();
         const detectedLang = supportedLangs.includes(browserLang) ? browserLang : defaultLang;
-        
+
         // Only redirect if browser language differs from default
         if (detectedLang !== defaultLang) {
           // Use replace to avoid adding to browser history

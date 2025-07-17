@@ -5,13 +5,15 @@ import SeoAlternates from "./SeoAlternates.astro";
 
 export interface Props {
   title?: string;
+  desc?: string;
   lang?: string;
   canonicalUrl?: string;
 }
 
-const { title, lang = 'en', canonicalUrl } = Astro.props;
+const { title, desc, lang = 'en', canonicalUrl } = Astro.props;
 const siteTitle = title || t(lang, 'site.title');
 const siteDescription = t(lang, 'site.description');
+const baseUrl         = 'https://www.hoergen.com';
 ---
 
 <title>{siteTitle}</title>
@@ -27,6 +29,28 @@ const siteDescription = t(lang, 'site.description');
 
 <!-- SEO Alternates and Canonical -->
 <SeoAlternates currentLang={lang} canonicalUrl={canonicalUrl} />
+
+<!-- JSON-LD: key pages for sitelinks -->
+<script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": baseUrl + '/',
+  "name": "Hoergen | Worldwide Broadcast of Underground House & Techno CUlture",
+  "hasPart": [
+    {
+      "@type": "WebPage",
+      "url": baseUrl + "/listeners",
+      "name": "Listen Now"
+    },
+    {
+      "@type": "WebPage",
+      "url": baseUrl + "/creators",
+      "name": "Become a Creator"
+    }
+  ]
+}, null, 2)}
+</script>
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" sizes="150x150" href="/avatars/icon.png" />

@@ -162,5 +162,94 @@
             "message": "Tu opinión ha sido enviada exitosamente. Apreciamos que te hayas tomado el tiempo para ayudarnos a mejorar.",
             "backHome": "Volver al inicio"
         }
+    },
+    "creators": {
+      "headerTitle": "Para Creadores, DJs y Visionarios del Underground",
+      "hero": {
+        "title": "Libera tu frecuencia",
+        "subtitle": "Transmite tu sonido. Haz crecer tu comunidad. Recibe recompensas por tu arte."
+      },
+      "benefitsTitle": "¿Por qué ser Creator?",
+      "benefits": [
+        {
+          "title": "Distribución global de radio",
+          "desc": "Tu sonido, sin filtros. Llega a oyentes underground de todo el mundo—directo, crudo y sin algoritmos."
+        },
+        {
+          "title": "Analíticas en tiempo real",
+          "desc": "Ve quién está escuchando, desde dónde y por cuánto tiempo. Adapta tu show al instante—sin suposiciones, solo datos."
+        },
+        {
+          "title": "Moderación y soporte comunitario",
+          "desc": "Mantén tu chat bajo control. Herramientas integradas para gestión instantánea. Red privada para consejos reales—sin ruido."
+        }
+      ],
+      "faqTitle": "Preguntas frecuentes",
+      "faq": [
+        {
+          "q": "¿Quién puede unirse como Creator?",
+          "a": "Cualquier DJ, estación o colectivo underground enfocado realmente en la cultura sonora."
+        },
+        {
+          "q": "¿Cómo funcionan las analíticas en tiempo real?",
+          "a": "Los paneles se actualizan al instante con estadísticas de oyentes, ubicaciones y duración de escucha."
+        },
+        {
+          "q": "¿Puedo gestionar el chat de mi canal?",
+          "a": "Sí: configura auto-filtros, asigna moderadores y silencia o bloquea usuarios desde tu panel."
+        },
+        {
+          "q": "¿Qué tipo de soporte ofrecen?",
+          "a": "Soporte técnico continuo y acceso a un foro privado donde los creators comparten recursos y consejos."
+        }
+      ],
+      "cta": {
+        "title": "¿Listo para unirte al movimiento?",
+        "button": "Hazte Creator",
+        "desc": "Da el paso. Transmite tu sonido. Da forma al underground—a tu manera, sin compromisos."
+      }
+    }
+    ,
+    "listeners": {
+      "headerTitle": "Para oyentes y exploradores underground",
+      "hero": {
+        "title": "Sintoniza. Descubre. Pertenece.",
+        "subtitle": "Vive la mejor radio underground del mundo. Sin algoritmos. Sin ruido. Solo sonido puro y verdadera comunidad."
+      },
+      "benefitsTitle": "¿Por qué escuchar en Hörgen?",
+      "benefits": [
+        {
+          "title": "Estaciones seleccionadas",
+          "desc": "Cada estación está elegida por su autenticidad y calidad. Descubre nuevos sonidos y joyas ocultas de todo el mundo."
+        },
+        {
+          "title": "Sin distracciones",
+          "desc": "Una interfaz mínima que te permite enfocarte en la música. Sin anuncios, sin desorden—solo tú y el beat."
+        },
+        {
+          "title": "Conexión comunitaria",
+          "desc": "Únete a chats en vivo, comparte tus descubrimientos y conecta con otros amantes de la música underground en todo el mundo."
+        }
+      ],
+      "faqTitle": "Preguntas frecuentes",
+      "faq": [
+        {
+          "q": "¿Hörgen es gratis?",
+          "a": "¡Sí! Escuchar siempre es gratis. Sin suscripciones ni cargos ocultos."
+        },
+        {
+          "q": "¿Puedo guardar mis estaciones favoritas?",
+          "a": "Por supuesto. Crea tu propio archivo de favoritos e historial de escucha."
+        },
+        {
+          "q": "¿Cómo me uno al chat comunitario?",
+          "a": "Simplemente sintoniza cualquier estación y únete a la conversación en tiempo real."
+        }
+      ],
+      "cta": {
+        "title": "¿Listo para vivir la radio real?",
+        "button": "Comenzar a escuchar",
+        "desc": "Sumérgete en el underground. Descubre tu nuevo sonido favorito—no necesitas registrarte."
+      }
     }
 }
