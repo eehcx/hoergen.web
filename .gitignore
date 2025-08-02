@@ -34,7 +34,6 @@ pnpm-debug.log*
 *.tmp
 Thumbs.db
 
-pnpm-lock.yaml
 firebase.json
 firebase-debug.log
 firebase.ts
