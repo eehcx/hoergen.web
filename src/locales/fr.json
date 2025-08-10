@@ -248,7 +248,71 @@
       "cta": {
         "title": "Prêt à vivre la vraie radio ?",
         "button": "Commencer à écouter",
-        "desc": "Plongez dans l’underground. Découvrez votre nouveau son préféré — aucune inscription requise."
+        "desc": "Plongez dans l'underground. Découvrez votre nouveau son préféré — aucune inscription requise."
       }
+    },
+    "downloads": {
+      "title": "Télécharger Hörgen",
+      "subtitle": "Votre fréquence underground sur n'importe quel appareil",
+              "detectedPlatform": "Plateforme détectée :",
+      "primaryDownload": "Télécharger pour",
+      "version": "Version",
+      "latestVersion": "Dernière version",
+      "allVersions": "Toutes les versions",
+              "platforms": {
+          "windows": "Windows 10/11 (x64)",
+          "linux": "Linux (x64)",
+          "android": "Android (APK)",
+          "macos": "macOS (Intel/Apple Silicon)"
+        },
+                  "downloadOptions": {
+              "windows": {
+                "title": "Windows",
+                "system": "Windows (x64) - Système",
+                "portable": "Windows (x64) - Portable"
+              },
+              "linux": {
+                "title": "Linux",
+                "appimage": "Linux (x64) - AppImage",
+                "appimage-arm": "Linux (ARM64) - AppImage"
+              },
+              "android": {
+                "title": "Android",
+                "apk": "Android (APK)",
+                "playstore": "Google Play Store"
+              }
+            }
+    },
+    "versions": {
+      "title": "Toutes les versions",
+      "latestVersion": "DERNIÈRE VERSION",
+      "readReleaseNotes": "Lire les notes de version",
+      "versions": [
+        {
+          "version": "0.1.4",
+          "isLatest": true,
+          "date": "2024-01-15"
+        },
+        {
+          "version": "0.1.3",
+          "isLatest": false,
+          "date": "2024-01-10"
+        },
+        {
+          "version": "0.1.2",
+          "isLatest": false,
+          "date": "2024-01-05"
+        },
+        {
+          "version": "0.1.1",
+          "isLatest": false,
+          "date": "2024-01-01"
+        },
+        {
+          "version": "0.1.0",
+          "isLatest": false,
+          "date": "2023-12-25"
+        }
+      ]
     }
 }

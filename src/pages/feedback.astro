@@ -4,7 +4,22 @@ import { defaultLang, t } from "@/utils/i18n";
 
 // Remove SSR - this page will be static for Firebase Hosting
 const lang = defaultLang;
-const feedback = t(lang, 'feedback');
+const feedbackData = t(lang, 'feedback') || {};
+
+// Fallback values to prevent build errors
+const feedback = {
+    title: feedbackData.title || 'Feedback',
+    subtitle: feedbackData.subtitle || 'Share your feedback with us',
+    form: {
+        email: feedbackData.form?.email || 'Email',
+        emailPlaceholder: feedbackData.form?.emailPlaceholder || 'your@email.com',
+        message: feedbackData.form?.message || 'Message',
+        messagePlaceholder: feedbackData.form?.messagePlaceholder || 'Write your message here...',
+        submit: feedbackData.form?.submit || 'Send',
+        sending: feedbackData.form?.sending || 'Sending...',
+        cancel: feedbackData.form?.cancel || 'Cancel'
+    }
+};
 ---
 
 <script define:vars={{ pageTitle: `${feedback.title} | Hoergen` }}>

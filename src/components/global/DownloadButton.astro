@@ -1,0 +1,121 @@
+---
+import { t } from "@/utils/i18n";
+import PlatformIcon from "./PlatformIcon.astro";
+
+export interface Props {
+    lang?: string;
+    variant?: "primary" | "header" | "secondary";
+    size?: "sm" | "md" | "lg";
+}
+
+const { lang = "en", variant = "primary", size = "md" } = Astro.props;
+const downloads = t(lang, "downloads");
+
+const sizeClasses = {
+    sm: "px-3 py-2 text-xs",
+    md: "px-4 py-3 text-sm md:px-6 md:py-4",
+    lg: "px-6 py-4 text-sm md:px-12 md:py-5 md:text-base lg:px-16 lg:py-6 lg:text-lg",
+};
+
+const variantClasses = {
+    primary:
+        "bg-orange text-neutral-950 font-inter font-bold capitalize tracking-wide hover:bg-orange/80 transition-colors rounded-sm cursor-pointer",
+    header: "bg-black border border-orange/40 text-orange font-display uppercase hover:bg-orange hover:text-black transition-colors duration-200 rounded-full",
+    secondary:
+        "bg-black border border-white/20 text-white font-display uppercase hover:bg-white hover:text-black transition-colors duration-200 rounded-none",
+};
+---
+
+<button
+    id="download-btn"
+    class={`${variantClasses[variant]} ${sizeClasses[size]} text-center flex items-center justify-center gap-3`}
+    style={variant === "primary" ? "letter-spacing:0.15em" : ""}
+>
+    <div id="platform-icon" class="hidden">
+        <!-- Platform icon will be inserted here by JavaScript -->
+    </div>
+    <span id="download-text">{downloads.primaryDownload} ...</span>
+</button>
+
+<script>
+    // Platform detection and download button logic
+    function detectPlatform() {
+        const userAgent = navigator.userAgent;
+        const platform = navigator.platform;
+
+        if (/Android/i.test(userAgent)) {
+            return "android";
+        } else if (/Windows/i.test(userAgent) || /Win/i.test(platform)) {
+            return "windows";
+        } else if (/Linux/i.test(userAgent) || /Linux/i.test(platform)) {
+            return "linux";
+        } else if (/Mac/i.test(userAgent) || /Mac/i.test(platform)) {
+            return "macos";
+        } else {
+            return "windows"; // Default fallback
+        }
+    }
+
+    function updateDownloadButton() {
+        const platform = detectPlatform();
+        const platformNames = {
+            windows: "Windows",
+            linux: "Linux",
+            android: "Android",
+            macos: "macOS",
+        };
+
+        const downloadBtn = document.getElementById("download-btn");
+        const downloadText = document.getElementById("download-text");
+        const platformIcon = document.getElementById("platform-icon");
+
+        if (downloadBtn && downloadText && platformIcon) {
+            // Check screen size for responsive text
+            const isMobile = window.innerWidth < 768; // md breakpoint
+
+            if (isMobile) {
+                downloadText.textContent = "Download";
+            } else {
+                downloadText.textContent = `Download for ${platformNames[platform] || platform}`;
+            }
+
+            // Create platform icon
+            const iconImg = document.createElement("img");
+            iconImg.src = `/platforms/${platform}.svg`;
+            iconImg.alt = `${platform} icon`;
+            iconImg.className = "w-6 h-6 filter brightness-0";
+
+            // Clear and add icon
+            platformIcon.innerHTML = "";
+            platformIcon.appendChild(iconImg);
+            platformIcon.classList.remove("hidden");
+
+            // Add click handler for download
+            downloadBtn.onclick = () => {
+                // Here you would add the actual download links based on platform
+                console.log(`Downloading for ${platform}`);
+
+                // Platform-specific download URLs (replace with actual URLs)
+                const downloadUrls = {
+                    windows:
+                        "https://download.hoergen.com/Hoergen-Setup-0.1.4.exe",
+                    linux: "https://download.hoergen.com/Hoergen-0.1.4-x86_64.AppImage",
+                    android: "https://download.hoergen.com/app-release.apk",
+                    macos: "/",
+                };
+
+                const downloadUrl = downloadUrls[platform] || "/";
+
+                // For now, redirect to downloads page
+                // In production, you would trigger the actual download
+                window.location.href = downloadUrl;
+            };
+        }
+    }
+
+    // Initialize on page load
+    document.addEventListener("DOMContentLoaded", updateDownloadButton);
+
+    // Update on window resize
+    window.addEventListener("resize", updateDownloadButton);
+</script>

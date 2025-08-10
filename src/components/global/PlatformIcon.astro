@@ -1,0 +1,30 @@
+---
+export interface Props {
+  platform: 'windows' | 'linux' | 'android' | 'macos';
+  size?: 'sm' | 'md' | 'lg';
+}
+
+const { platform, size = 'md' } = Astro.props;
+
+const sizeClasses = {
+  sm: 'w-4 h-4',
+  md: 'w-6 h-6',
+  lg: 'w-8 h-8'
+};
+
+// Mapeo de plataformas a archivos SVG
+const platformFiles = {
+  windows: '/platforms/windows.svg',
+  linux: '/platforms/linux.svg',
+  android: '/platforms/android.svg',
+  macos: '/platforms/apple.svg'
+};
+---
+
+<div class={`platform-icon ${sizeClasses[size]} text-white`}>
+  <img 
+    src={platformFiles[platform]} 
+    alt={`${platform} icon`}
+    class="w-full h-full object-contain filter brightness-0 invert"
+  />
+</div> 

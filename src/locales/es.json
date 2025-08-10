@@ -1,255 +1,318 @@
 {
-    "site": {
-        "title": "Hoergen | Transmisión Mundial de Cultura House y Techno Underground",
-        "description": "Transmitiendo la cultura techno, no solo ritmos. Estaciones underground seleccionadas para quienes aún escuchan."
+  "site": {
+    "title": "Hoergen | Transmisión Mundial de Cultura House y Techno Underground",
+    "description": "Transmitiendo la cultura techno, no solo ritmos. Estaciones underground seleccionadas para quienes aún escuchan."
+  },
+  "nav": {
+    "title": "Radio mundial",
+    "stations": "Estaciones",
+    "getStarted": "Comenzar"
+  },
+  "hero": {
+    "title": "Sin algoritmos. Solo humanos seleccionando las frecuencias más underground. Entra. Sin poses. Solo esencial."
+  },
+  "testimonials": [
+    {
+      "quote": "No hay curaduría falsa aquí. Solo estaciones reales, sonido real. La función de chat hace que se sienta como si estuviera de vuelta en una fiesta de almacén, hablando de música mientras suena.",
+      "author": "Felix Jansen",
+      "source": "DJ Underground / Colonia"
     },
-    "nav": {
-        "title": "Radio mundial",
-        "stations": "Estaciones",
-        "getStarted": "Comenzar"
+    {
+      "quote": "Finalmente, una radio que lo entiende. Sin relleno mainstream, solo vibraciones underground puras. La comunidad es unida, y la música es aún más unida.",
+      "author": "Maya Tran",
+      "source": "Organizadora de Raves / Berlín"
     },
-    "hero": {
-        "title": "Sin algoritmos. Solo humanos seleccionando las frecuencias más underground. Entra. Sin poses. Solo esencial."
+    {
+      "quote": "¿La interfaz cruda? Bellamente intencional. Sin distracciones. Abro Hörgen, presiono play, y es como si desapareciera por horas — exactamente como debería ser.",
+      "author": "Denis Kramer",
+      "source": "Fotógrafo de Clubes / Leipzig"
     },
-    "testimonials": [
-        {
-            "quote": "No hay curaduría falsa aquí. Solo estaciones reales, sonido real. La función de chat hace que se sienta como si estuviera de vuelta en una fiesta de almacén, hablando de música mientras suena.",
-            "author": "Felix Jansen",
-            "source": "DJ Underground / Colonia"
+    {
+      "quote": "Es lo más cercano a sintonizar HÖR sin necesitar un enlace de stream o VPN. Radio honesta. Techno honesto. Sin relleno.",
+      "author": "Anika Söldner",
+      "source": "Escritora de Vida Nocturna / Berlín"
+    }
+  ],
+  "intro": {
+    "about": "Hörgen Radio es una transmisión global de energía underground — transmitiendo estaciones seleccionadas que se mueven con el ritmo del momento y el ambiente de la noche.",
+    "community": "Reunimos frecuencias electrónicas de todo el mundo — desde sótanos de Berlín hasta sets nocturnos en Tokio. Cada estación se selecciona para sorprender, inspirar y atraerte. Con Hörgen, no solo estás escuchando — eres parte de un movimiento sonoro vivo y respirante que nunca deja de girar."
+  },
+  "services": {
+    "title": "pulso. comunidad. intención.",
+    "experiences": [
+      {
+        "title": "Descubre sin esfuerzo:",
+        "description": "Explora estaciones de techno alemán con una interfaz que desaparece para dar paso al ritmo. Encuentra tu frecuencia ideal sin menús confusos o distracciones visuales. Tú eliges, tú fluyes."
+      },
+      {
+        "title": "Memoria en cada ritmo:",
+        "description": "Cada estación que sintonizas se convierte en parte de tu viaje. Tu historial y favoritos forman un archivo personal — un diario sónico de todo lo que te ha movido."
+      },
+      {
+        "title": "Construido para ravers:",
+        "description": "Oscuro, despojado y honesto. Hörgen está diseñado como un club digital: sin likes, sin filtros. Solo sonido crudo, emoción real, y un espacio hecho para quienes saben."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para transformar tu presencia digital?",
+    "subtitle": "Conectemos y convirtamos tu visión en realidad.",
+    "button": "Obtener nuestra app"
+  },
+  "footer": {
+    "title": "Hoergen Radio",
+    "description": "Transmitiendo cultura, no solo ritmos. Estaciones underground seleccionadas para quienes aún escuchan.",
+    "links": {
+      "privacyPolicy": "Política de Privacidad",
+      "termsOfService": "Términos de Servicio"
+    }
+  },
+  "downloads": {
+    "title": "Descargar Hörgen",
+    "subtitle": "Tu frecuencia underground en cualquier dispositivo",
+    "detectedPlatform": "Plataforma detectada:",
+    "primaryDownload": "Descargar para",
+    "version": "Versión",
+    "latestVersion": "Última versión",
+    "allVersions": "Todas las versiones",
+            "platforms": {
+          "windows": "Windows 10/11 (x64)",
+          "linux": "Linux (x64)",
+          "android": "Android (APK)",
+          "macos": "macOS (Intel/Apple Silicon)"
         },
-        {
-            "quote": "Finalmente, una radio que lo entiende. Sin relleno mainstream, solo vibraciones underground puras. La comunidad es unida, y la música es aún más unida.",
-            "author": "Maya Tran",
-            "source": "Organizadora de Raves / Berlín"
-        },
-        {
-            "quote": "¿La interfaz cruda? Bellamente intencional. Sin distracciones. Abro Hörgen, presiono play, y es como si desapareciera por horas — exactamente como debería ser.",
-            "author": "Denis Kramer",
-            "source": "Fotógrafo de Clubes / Leipzig"
-        },
-        {
-            "quote": "Es lo más cercano a sintonizar HÖR sin necesitar un enlace de stream o VPN. Radio honesta. Techno honesto. Sin relleno.",
-            "author": "Anika Söldner",
-            "source": "Escritora de Vida Nocturna / Berlín"
-        }
-    ],
-    "intro": {
-        "about": "Hörgen Radio es una transmisión global de energía underground — transmitiendo estaciones seleccionadas que se mueven con el ritmo del momento y el ambiente de la noche.",
-        "community": "Reunimos frecuencias electrónicas de todo el mundo — desde sótanos de Berlín hasta sets nocturnos en Tokio. Cada estación se selecciona para sorprender, inspirar y atraerte. Con Hörgen, no solo estás escuchando — eres parte de un movimiento sonoro vivo y respirante que nunca deja de girar."
-    },
-    "services": {
-        "title": "pulso. comunidad. intención.",
-        "experiences": [
-            {
-                "title": "Descubre sin esfuerzo:",
-                "description": "Explora estaciones de techno alemán con una interfaz que desaparece para dar paso al ritmo. Encuentra tu frecuencia ideal sin menús confusos o distracciones visuales. Tú eliges, tú fluyes."
-            },
-            {
-                "title": "Memoria en cada ritmo:",
-                "description": "Cada estación que sintonizas se convierte en parte de tu viaje. Tu historial y favoritos forman un archivo personal — un diario sónico de todo lo que te ha movido."
-            },
-            {
-                "title": "Construido para ravers:",
-                "description": "Oscuro, despojado y honesto. Hörgen está diseñado como un club digital: sin likes, sin filtros. Solo sonido crudo, emoción real, y un espacio hecho para quienes saben."
+                "downloadOptions": {
+              "windows": {
+                "title": "Windows",
+                "system": "Windows (x64) - Sistema",
+                "portable": "Windows (x64) - Portable"
+              },
+              "linux": {
+                "title": "Linux",
+                "appimage": "Linux (x64) - AppImage",
+                "appimage-arm": "Linux (ARM64) - AppImage"
+              },
+              "android": {
+                "title": "Android",
+                "apk": "Android (APK)",
+                "playstore": "Google Play Store"
+              }
             }
-        ]
+  },
+  "versions": {
+    "title": "Todas las versiones",
+    "latestVersion": "ÚLTIMA VERSIÓN",
+    "readReleaseNotes": "Leer notas de lanzamiento",
+    "versions": [
+      {
+        "version": "0.1.4",
+        "isLatest": true,
+        "date": "2024-01-15"
+      },
+      {
+        "version": "0.1.3",
+        "isLatest": false,
+        "date": "2024-01-10"
+      },
+      {
+        "version": "0.1.2",
+        "isLatest": false,
+        "date": "2024-01-05"
+      },
+      {
+        "version": "0.1.1",
+        "isLatest": false,
+        "date": "2024-01-01"
+      },
+      {
+        "version": "0.1.0",
+        "isLatest": false,
+        "date": "2023-12-25"
+      }
+    ]
+  },
+  "creators": {
+    "headerTitle": "Para Creadores, DJs y Visionarios del Underground",
+    "hero": {
+      "title": "Libera tu frecuencia",
+      "subtitle": "Transmite tu sonido. Haz crecer tu comunidad. Recibe recompensas por tu arte."
     },
+    "benefitsTitle": "¿Por qué ser Creator?",
+    "benefits": [
+      {
+        "title": "Distribución global de radio",
+        "desc": "Tu sonido, sin filtros. Llega a oyentes underground de todo el mundo—directo, crudo y sin algoritmos."
+      },
+      {
+        "title": "Analíticas en tiempo real",
+        "desc": "Ve quién está escuchando, desde dónde y por cuánto tiempo. Adapta tu show al instante—sin suposiciones, solo datos."
+      },
+      {
+        "title": "Moderación y soporte comunitario",
+        "desc": "Mantén tu chat bajo control. Herramientas integradas para gestión instantánea. Red privada para consejos reales—sin ruido."
+      }
+    ],
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Quién puede unirse como Creator?",
+        "a": "Cualquier DJ, estación o colectivo underground enfocado realmente en la cultura sonora."
+      },
+      {
+        "q": "¿Cómo funcionan las analíticas en tiempo real?",
+        "a": "Los paneles se actualizan al instante con estadísticas de oyentes, ubicaciones y duración de escucha."
+      },
+      {
+        "q": "¿Puedo gestionar el chat de mi canal?",
+        "a": "Sí: configura auto-filtros, asigna moderadores y silencia o bloquea usuarios desde tu panel."
+      },
+      {
+        "q": "¿Qué tipo de soporte ofrecen?",
+        "a": "Soporte técnico continuo y acceso a un foro privado donde los creators comparten recursos y consejos."
+      }
+    ],
     "cta": {
-        "title": "¿Listo para transformar tu presencia digital?",
-        "subtitle": "Conectemos y convirtamos tu visión en realidad.",
-        "button": "Obtener nuestra app"
-    },
-    "footer": {
-        "title": "Hoergen Radio",
-        "description": "Transmitiendo cultura, no solo ritmos. Estaciones underground seleccionadas para quienes aún escuchan.",
-        "links": {
-            "privacyPolicy": "Política de Privacidad",
-            "termsOfService": "Términos de Servicio"
-        }
-    },
-    "privacy": {
-        "title": "Política de Privacidad",
-        "intro": "Gracias por usar Hörgen Radio. Tu privacidad es extremadamente importante para nosotros. Esta Política de Privacidad explica cómo recopilamos, usamos, almacenamos y protegemos tu información personal cuando interactúas con nuestra aplicación móvil y servicios relacionados.",
-        "sections": {
-            "informationTitle": "Información que Recopilamos",
-            "informationIntro": "Recopilamos los siguientes tipos de información:",
-            "personalTitle": "Información Personal",
-            "personalDesc": "Proporcionada directamente por ti al registrarte, iniciar sesión o actualizar tu perfil. Esto puede incluir tu nombre, correo electrónico y preferencias de perfil.",
-            "usageTitle": "Datos de Uso",
-            "usageDesc": "Información sobre cómo usas la app (por ejemplo, estaciones reproducidas, búsquedas, favoritos, historial de escucha) para mejorar tu experiencia y recomendaciones.",
-            "deviceTitle": "Información del Dispositivo",
-            "deviceDesc": "Detalles técnicos como modelo de dispositivo, sistema operativo y versión de la app para soporte y depuración.",
-            "authTitle": "Datos de Autenticación y Pago",
-            "authDesc": "Al usar funciones como suscripciones o vinculación de cuentas (por ejemplo, Firebase Auth, Stripe), podemos acceder a tokens de autenticación o metadatos de facturación limitados. Información sensible como números de tarjeta se maneja de forma segura por proveedores externos confiables (por ejemplo, Stripe) y nunca se almacena directamente por nosotros.",
-            "useTitle": "Cómo Usamos Tu Información",
-            "useIntro": "Usamos la información recopilada para:",
-            "useList": [
-                "Proveer y mantener la funcionalidad principal de Hörgen Radio",
-                "Personalizar tu experiencia y mejorar recomendaciones",
-                "Comunicar actualizaciones importantes, promociones o avisos técnicos",
-                "Monitorear y mejorar el rendimiento, seguridad y confiabilidad de nuestros servicios",
-                "Cumplir obligaciones legales y prevenir mal uso o fraude"
-            ],
-            "protectionTitle": "Protección de Datos",
-            "protectionDesc": "Utilizamos prácticas de seguridad modernas y estándar de la industria, incluyendo conexiones cifradas (HTTPS), infraestructura segura de Firebase y controles de acceso, para proteger tus datos. A pesar de nuestros esfuerzos, ningún sistema online puede garantizarse 100% seguro.",
-            "childrenTitle": "Privacidad Infantil y Moderación de Chat",
-            "childrenDesc1": "Hörgen Radio no está destinado a menores de 13 años. No recopilamos ni almacenamos conscientemente información personal de usuarios menores de esta edad. Si eres padre/madre o tutor y crees que tu hijo nos ha proporcionado datos personales, contáctanos de inmediato en contact@hoergen.com y tomaremos medidas para eliminar dicha información.",
-            "childrenDesc2": "Nuestra app incluye un chat para mejorar la interacción. Para mantener un entorno seguro y respetuoso, usamos Perspective API (herramienta de Google) para evaluar automáticamente los mensajes en busca de contenido potencialmente dañino, tóxico o inapropiado. Este sistema puede procesar mensajes en tiempo real pero no almacena ni asocia estos datos con información personal identificable.",
-            "childrenDesc3": "Usuarios menores de 18 años deben revisar esta política con un padre/madre o tutor antes de usar la app. Al usar nuestros servicios, confirmas que tienes al menos 13 años o que lo haces con el consentimiento adecuado.",
-            "rightsTitle": "Tus Derechos y Opciones",
-            "rightsIntro": "Tienes derecho a:",
-            "rightsList": [
-                "Acceder, corregir o eliminar tu información personal",
-                "Retirar el consentimiento o desactivar tu cuenta en cualquier momento",
-                "Contactarnos con inquietudes o consultas relacionadas con tus datos"
-            ],
-            "rightsContact": "Para ejercer estos derechos, contáctanos directamente en contact@hoergen.com",
-            "thirdTitle": "Servicios de Terceros",
-            "thirdDesc": "Hörgen Radio utiliza servicios como Firebase (para autenticación, Firestore, analíticas) y Stripe (para pagos). Estos proveedores tienen sus propias políticas de privacidad y recomendamos revisarlas para entender cómo manejan tu información.",
-            "contactTitle": "Contáctanos",
-            "contactDesc1": "Si tienes preguntas o inquietudes sobre esta Política de Privacidad o cómo manejamos tus datos, puedes contactarnos en:",
-            "contactForm": "Disponible en la app en Configuración > Ayuda y Soporte.",
-            "responseTime": "Nos esforzamos por responder todas las consultas en un plazo de 48 horas."
-        }
-    },
-    "terms": {
-        "title": "Términos de Servicio",
-        "intro": "Estos Términos de Servicio (\"Términos\") rigen tu acceso y uso de Hörgen Radio y sus servicios relacionados (\"el Servicio\"). Al usar el Servicio, aceptas cumplir y estar legalmente sujeto a estos Términos. Si no estás de acuerdo, por favor no uses el Servicio.",
-        "sections": {
-            "eligibilityTitle": "Elegibilidad",
-            "eligibilityDesc": "Debes tener al menos 13 años para usar Hörgen Radio. Si eres menor de 18, debes tener permiso de un padre/madre o tutor legal. No recopilamos ni almacenamos conscientemente datos personales de menores de 13 años.",
-            "conductTitle": "Conducta del Usuario",
-            "conductIntro": "Aceptas no participar en ninguna actividad que interfiera o interrumpa el Servicio, o que viole los derechos de otros. El comportamiento prohibido incluye (pero no se limita a):",
-            "conductList": [
-                "Acoso, abuso o lenguaje amenazante en chats u otras funciones",
-                "Spam, contenido engañoso o promociones no autorizadas",
-                "Publicar material ofensivo, odioso o ilegal",
-                "Intentar obtener acceso no autorizado a nuestros sistemas"
-            ],
-            "conductModeration": "Utilizamos herramientas de moderación automatizada (por ejemplo, Perspective API de Google) para detectar y gestionar lenguaje tóxico o dañino en los chats.",
-            "suspensionTitle": "Suspensión de Cuenta",
-            "suspensionDesc": "Nos reservamos el derecho de suspender o terminar tu acceso al Servicio en cualquier momento, con o sin previo aviso, si creemos que has violado estos Términos o por cualquier otra razón que consideremos apropiada.",
-            "ipTitle": "Propiedad Intelectual",
-            "ipDesc": "Hörgen Radio y su contenido, incluidos logotipos, interfaz y marca, están protegidos por derechos de autor y otras leyes de propiedad intelectual. No puedes usar, copiar o distribuir ninguna parte del Servicio sin nuestro permiso expreso.",
-            "disclaimerTitle": "Exenciones de Responsabilidad",
-            "disclaimerDesc": "El Servicio se proporciona 'tal cual' y 'según disponibilidad' sin garantías de ningún tipo, expresas o implícitas. No garantizamos la precisión, disponibilidad o confiabilidad del Servicio.",
-            "limitationTitle": "Limitación de Responsabilidad",
-            "limitationDesc": "En la máxima medida permitida por la ley, Hörgen Radio no será responsable de ningún daño indirecto, incidental, especial o consecuente que resulte del uso o la imposibilidad de usar el Servicio.",
-            "changesTitle": "Cambios en los Términos",
-            "changesDesc": "Podemos modificar estos Términos ocasionalmente. Cuando se realicen cambios, actualizaremos la fecha de “Última actualización” al final de esta página. El uso continuado del Servicio después de cualquier cambio constituye la aceptación de los nuevos Términos.",
-            "lawTitle": "Ley Aplicable",
-            "lawDesc": "Estos Términos se regirán e interpretarán de acuerdo con las leyes de tu jurisdicción local, a menos que la ley exija lo contrario.",
-            "contactTitle": "Contacto",
-            "contactDesc": "Si tienes preguntas sobre estos Términos, contáctanos en:",
-            "contactForm": "Disponible en la app en Configuración > Ayuda y Soporte.",
-            "lastUpdated": "Última actualización: 31 de mayo de 2025"
-        }
-    },
-    "feedback": {
-        "title": "Comparte tu opinión",
-        "subtitle": "Ayúdanos a mejorar compartiendo tus pensamientos y sugerencias.",
-        "form": {
-            "email": "Correo electrónico",
-            "emailPlaceholder": "tu.correo@ejemplo.com",
-            "message": "Mensaje",
-            "messagePlaceholder": "Comparte tu opinión en detalle...",
-            "submit": "Enviar opinión",
-            "sending": "Enviando...",
-            "cancel": "Cancelar"
-        },
-        "success": {
-            "title": "¡Gracias!",
-            "message": "Tu opinión ha sido enviada exitosamente. Apreciamos que te hayas tomado el tiempo para ayudarnos a mejorar.",
-            "backHome": "Volver al inicio"
-        }
-    },
-    "creators": {
-      "headerTitle": "Para Creadores, DJs y Visionarios del Underground",
-      "hero": {
-        "title": "Libera tu frecuencia",
-        "subtitle": "Transmite tu sonido. Haz crecer tu comunidad. Recibe recompensas por tu arte."
-      },
-      "benefitsTitle": "¿Por qué ser Creator?",
-      "benefits": [
-        {
-          "title": "Distribución global de radio",
-          "desc": "Tu sonido, sin filtros. Llega a oyentes underground de todo el mundo—directo, crudo y sin algoritmos."
-        },
-        {
-          "title": "Analíticas en tiempo real",
-          "desc": "Ve quién está escuchando, desde dónde y por cuánto tiempo. Adapta tu show al instante—sin suposiciones, solo datos."
-        },
-        {
-          "title": "Moderación y soporte comunitario",
-          "desc": "Mantén tu chat bajo control. Herramientas integradas para gestión instantánea. Red privada para consejos reales—sin ruido."
-        }
-      ],
-      "faqTitle": "Preguntas frecuentes",
-      "faq": [
-        {
-          "q": "¿Quién puede unirse como Creator?",
-          "a": "Cualquier DJ, estación o colectivo underground enfocado realmente en la cultura sonora."
-        },
-        {
-          "q": "¿Cómo funcionan las analíticas en tiempo real?",
-          "a": "Los paneles se actualizan al instante con estadísticas de oyentes, ubicaciones y duración de escucha."
-        },
-        {
-          "q": "¿Puedo gestionar el chat de mi canal?",
-          "a": "Sí: configura auto-filtros, asigna moderadores y silencia o bloquea usuarios desde tu panel."
-        },
-        {
-          "q": "¿Qué tipo de soporte ofrecen?",
-          "a": "Soporte técnico continuo y acceso a un foro privado donde los creators comparten recursos y consejos."
-        }
-      ],
-      "cta": {
-        "title": "¿Listo para unirte al movimiento?",
-        "button": "Hazte Creator",
-        "desc": "Da el paso. Transmite tu sonido. Da forma al underground—a tu manera, sin compromisos."
-      }
+      "title": "¿Listo para unirte al movimiento?",
+      "button": "Hazte Creator",
+      "desc": "Da el paso. Transmite tu sonido. Da forma al underground—a tu manera, sin compromisos."
     }
-    ,
-    "listeners": {
-      "headerTitle": "Para oyentes y exploradores underground",
-      "hero": {
-        "title": "Sintoniza. Descubre. Pertenece.",
-        "subtitle": "Vive la mejor radio underground del mundo. Sin algoritmos. Sin ruido. Solo sonido puro y verdadera comunidad."
+  },
+  "listeners": {
+    "headerTitle": "Para oyentes y exploradores underground",
+    "hero": {
+      "title": "Sintoniza. Descubre. Pertenece.",
+      "subtitle": "Vive la mejor radio underground del mundo. Sin algoritmos. Sin ruido. Solo sonido puro y verdadera comunidad."
+    },
+    "benefitsTitle": "¿Por qué escuchar en Hörgen?",
+    "benefits": [
+      {
+        "title": "Estaciones seleccionadas",
+        "desc": "Cada estación está elegida por su autenticidad y calidad. Descubre nuevos sonidos y joyas ocultas de todo el mundo."
       },
-      "benefitsTitle": "¿Por qué escuchar en Hörgen?",
-      "benefits": [
-        {
-          "title": "Estaciones seleccionadas",
-          "desc": "Cada estación está elegida por su autenticidad y calidad. Descubre nuevos sonidos y joyas ocultas de todo el mundo."
-        },
-        {
-          "title": "Sin distracciones",
-          "desc": "Una interfaz mínima que te permite enfocarte en la música. Sin anuncios, sin desorden—solo tú y el beat."
-        },
-        {
-          "title": "Conexión comunitaria",
-          "desc": "Únete a chats en vivo, comparte tus descubrimientos y conecta con otros amantes de la música underground en todo el mundo."
-        }
-      ],
-      "faqTitle": "Preguntas frecuentes",
-      "faq": [
-        {
-          "q": "¿Hörgen es gratis?",
-          "a": "¡Sí! Escuchar siempre es gratis. Sin suscripciones ni cargos ocultos."
-        },
-        {
-          "q": "¿Puedo guardar mis estaciones favoritas?",
-          "a": "Por supuesto. Crea tu propio archivo de favoritos e historial de escucha."
-        },
-        {
-          "q": "¿Cómo me uno al chat comunitario?",
-          "a": "Simplemente sintoniza cualquier estación y únete a la conversación en tiempo real."
-        }
-      ],
-      "cta": {
-        "title": "¿Listo para vivir la radio real?",
-        "button": "Comenzar a escuchar",
-        "desc": "Sumérgete en el underground. Descubre tu nuevo sonido favorito—no necesitas registrarte."
+      {
+        "title": "Sin distracciones",
+        "desc": "Una interfaz mínima que te permite enfocarte en la música. Sin anuncios, sin desorden—solo tú y el beat."
+      },
+      {
+        "title": "Conexión comunitaria",
+        "desc": "Únete a chats en vivo, comparte tus descubrimientos y conecta con otros amantes de la música underground en todo el mundo."
       }
+    ],
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Hörgen es gratis?",
+        "a": "¡Sí! Escuchar siempre es gratis. Sin suscripciones ni cargos ocultos."
+      },
+      {
+        "q": "¿Puedo guardar mis estaciones favoritas?",
+        "a": "Por supuesto. Crea tu propio archivo de favoritos e historial de escucha."
+      },
+      {
+        "q": "¿Cómo me uno al chat comunitario?",
+        "a": "Simplemente sintoniza cualquier estación y únete a la conversación en tiempo real."
+      }
+    ],
+    "cta": {
+      "title": "¿Listo para vivir la radio real?",
+      "button": "Comenzar a escuchar",
+      "desc": "Sumérgete en el underground. Descubre tu nuevo sonido favorito—no necesitas registrarte."
     }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "intro": "Gracias por usar Hörgen Radio. Tu privacidad es extremadamente importante para nosotros. Esta Política de Privacidad explica cómo recopilamos, usamos, almacenamos y protegemos tu información personal cuando interactúas con nuestra aplicación móvil y servicios asociados.",
+    "sections": {
+      "informationTitle": "Información que recopilamos",
+      "informationIntro": "Recopilamos los siguientes tipos de información:",
+      "personalTitle": "Información personal",
+      "personalDesc": "Proporcionada directamente por ti durante el registro, inicio de sesión o actualizaciones de perfil. Esto puede incluir tu nombre, dirección de email y preferencias de perfil.",
+      "usageTitle": "Datos de uso",
+      "usageDesc": "Información sobre cómo usas la app (ej. estaciones escuchadas, consultas de búsqueda, favoritos, historial de escucha) para mejorar tu experiencia y recomendar contenido.",
+      "deviceTitle": "Información del dispositivo",
+      "deviceDesc": "Detalles técnicos como modelo del dispositivo, sistema operativo y versión de la app para propósitos de debugging y soporte.",
+      "authTitle": "Datos de autenticación y pago",
+      "authDesc": "Al usar características como suscripciones o vinculación de cuenta (ej. Firebase Auth, Stripe), podemos acceder a tokens de autenticación o metadatos de facturación limitados. Información sensible como números de tarjeta de crédito son manejados de forma segura por proveedores terceros confiables (ej. Stripe) y nunca son almacenados directamente por nosotros.",
+      "useTitle": "Cómo usamos tu información",
+      "useIntro": "Usamos la información recopilada para:",
+      "useList": [
+        "Proporcionar y mantener las características principales de Hörgen Radio",
+        "Personalizar tu experiencia y mejorar las recomendaciones",
+        "Comunicar actualizaciones importantes, promociones o avisos técnicos",
+        "Monitorear y mejorar el rendimiento, seguridad y confiabilidad de nuestros servicios",
+        "Cumplir con obligaciones legales y prevenir mal uso o fraude"
+      ],
+      "protectionTitle": "Protección de datos",
+      "protectionDesc": "Usamos prácticas de seguridad modernas y estándar de la industria—incluyendo conexiones encriptadas (HTTPS), infraestructura segura de Firebase y controles de acceso—para proteger tus datos. A pesar de nuestros esfuerzos, ningún sistema en línea puede garantizarse 100% seguro.",
+      "childrenTitle": "Privacidad de menores y moderación de chat",
+      "childrenDesc1": "Hörgen Radio no está destinado para niños menores de 13 años. No recopilamos ni almacenamos conscientemente información personal de usuarios de esa edad. Si eres padre o tutor y crees que tu hijo nos ha proporcionado datos personales, por favor contáctanos inmediatamente a contact@hoergen.com, y tomaremos medidas para eliminar dicha información.",
+      "childrenDesc2": "Nuestra app móvil incluye una característica de chat diseñada para mejorar la interacción del usuario. Para mantener un ambiente seguro y respetuoso, usamos la API Perspective (una herramienta proporcionada por Google) para evaluar automáticamente mensajes por contenido potencialmente dañino, tóxico o inapropiado. Este sistema de moderación puede procesar contenido de mensajes en tiempo real pero no almacena estos datos ni los asocia con información personalmente identificable.",
+      "childrenDesc3": "Usuarios menores de 18 años deben revisar esta política con un padre o tutor antes de usar la app. Al usar nuestros servicios, confirmas que tienes al menos 13 años o lo haces con el consentimiento parental apropiado.",
+      "rightsTitle": "Tus derechos y opciones",
+      "rightsIntro": "Tienes el derecho de:",
+      "rightsList": [
+        "Acceder, corregir o eliminar tu información personal",
+        "Retirar consentimiento o desactivar tu cuenta en cualquier momento",
+        "Contactarnos con preocupaciones o solicitudes relacionadas con datos"
+      ],
+      "rightsContact": "Para ejercer estos derechos, contáctanos directamente a contact@hoergen.com",
+      "thirdTitle": "Servicios de terceros",
+      "thirdDesc": "Hörgen Radio depende de servicios como Firebase (para autenticación, Firestore, analytics) y Stripe (para pagos). Estos proveedores tienen sus propias prácticas de privacidad, y recomendamos revisar sus políticas para entender cómo manejan tu información.",
+      "contactTitle": "Contáctanos",
+      "contactDesc1": "Si tienes preguntas o preocupaciones sobre esta Política de Privacidad o nuestro manejo de tus datos, puedes contactarnos en:",
+      "contactForm": "Disponible en la app bajo Configuraciones > Ayuda y Soporte.",
+      "responseTime": "Apuntamos a responder todas las consultas dentro de 48 horas."
+    }
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "intro": "Estos Términos de Servicio (\"Términos\") gobiernan tu acceso y uso de Hörgen Radio y sus servicios asociados (\"el Servicio\"). Al usar el Servicio, aceptas cumplir y estar legalmente vinculado por estos Términos. Si no estás de acuerdo, por favor no uses el Servicio.",
+    "sections": {
+      "eligibilityTitle": "Elegibilidad",
+      "eligibilityDesc": "Debes tener al menos 13 años para usar Hörgen Radio. Si tienes menos de 18, debes tener permiso de un padre o tutor legal. No recopilamos ni almacenamos conscientemente datos personales de niños menores de 13 años.",
+      "conductTitle": "Conducta del usuario",
+      "conductIntro": "Aceptas no participar en cualquier actividad que interfiera o interrumpa el Servicio, o viole los derechos de otros. Los comportamientos prohibidos incluyen (pero no se limitan a):",
+      "conductList": [
+        "Acoso, abuso o lenguaje amenazante en chats u otras características",
+        "Spam, contenido engañoso o promociones no autorizadas",
+        "Publicar material ofensivo, de odio o ilegal",
+        "Intentar acceso no autorizado a nuestros sistemas"
+      ],
+      "conductModeration": "Usamos herramientas de moderación automatizadas (ej. Perspective API de Google) para detectar y gestionar lenguaje tóxico o dañino en características de chat.",
+      "suspensionTitle": "Suspensión de cuenta",
+      "suspensionDesc": "Nos reservamos el derecho de suspender o terminar tu acceso al Servicio en cualquier momento, con o sin aviso, si creemos que has violado estos Términos o por cualquier otra razón que consideremos apropiada.",
+      "ipTitle": "Propiedad intelectual",
+      "ipDesc": "Hörgen Radio y su contenido—incluyendo logos, interfaz y marca—están protegidos por leyes de derechos de autor y propiedad intelectual. No puedes usar, copiar o distribuir cualquier parte del Servicio sin nuestro permiso expreso.",
+      "disclaimerTitle": "Exenciones de responsabilidad",
+      "disclaimerDesc": "El Servicio se proporciona \"tal como es\" y \"según disponibilidad\" sin garantías de ningún tipo, expresas o implícitas. No garantizamos la precisión, disponibilidad o confiabilidad del Servicio.",
+      "limitationTitle": "Limitación de responsabilidad",
+      "limitationDesc": "En la medida máxima permitida por la ley, Hörgen Radio no será responsable por cualquier daño indirecto, incidental, especial o consecuente que surja del uso o la incapacidad de usar el Servicio.",
+      "changesTitle": "Cambios a los Términos",
+      "changesDesc": "Podemos modificar estos Términos de vez en cuando. Cuando se hagan cambios, actualizaremos la fecha de \"Última actualización\" en la parte inferior de esta página. El uso continuado del Servicio después de cualquier cambio constituye la aceptación de los nuevos Términos.",
+      "lawTitle": "Ley aplicable",
+      "lawDesc": "Estos Términos serán gobernados e interpretados de acuerdo con las leyes de tu jurisdicción local, a menos que la ley requiera lo contrario.",
+      "contactTitle": "Contacto",
+      "contactDesc": "Si tienes preguntas sobre estos Términos, por favor contáctanos en:",
+      "contactForm": "Disponible en la app bajo Configuraciones > Ayuda y Soporte.",
+      "lastUpdated": "Última actualización: 31 de mayo de 2025"
+    }
+  },
+  "feedback": {
+    "title": "Comparte tu Feedback",
+    "subtitle": "Ayúdanos a mejorar compartiendo tus pensamientos y sugerencias.",
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "tu.email@ejemplo.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Por favor comparte tu feedback en detalle...",
+      "submit": "Enviar Feedback",
+      "sending": "Enviando...",
+      "cancel": "Cancelar"
+    },
+    "success": {
+      "title": "¡Gracias!",
+      "message": "Tu feedback ha sido enviado exitosamente. Apreciamos que te hayas tomado el tiempo para ayudarnos a mejorar.",
+      "backHome": "Volver al Inicio"
+    }
+  }
 }

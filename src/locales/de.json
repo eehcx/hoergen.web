@@ -250,5 +250,100 @@
             "button": "Jetzt reinhören",
             "desc": "Tauche ein in den Underground. Entdecke deinen neuen Lieblingssound – ganz ohne Anmeldung."
         }
+    },
+    "downloads": {
+        "title": "Hörgen herunterladen",
+        "subtitle": "Deine Underground-Frequenz auf jedem Gerät",
+        "detectedPlatform": "Erkannte Plattform:",
+        "primaryDownload": "Herunterladen für",
+        "version": "Version",
+        "latestVersion": "Neueste Version",
+        "allVersions": "Alle Versionen",
+                "platforms": {
+          "windows": "Windows 10/11 (x64)",
+          "linux": "Linux (x64)",
+          "android": "Android (APK)",
+          "macos": "macOS (Intel/Apple Silicon)"
+        },
+                    "downloadOptions": {
+              "windows": {
+                "title": "Windows",
+                "system": "Windows (x64) - System",
+                "portable": "Windows (x64) - Portable"
+              },
+              "linux": {
+                "title": "Linux",
+                "appimage": "Linux (x64) - AppImage",
+                "appimage-arm": "Linux (ARM64) - AppImage"
+              },
+              "android": {
+                "title": "Android",
+                "apk": "Android (APK)",
+                "playstore": "Google Play Store"
+              }
+            },
+        "features": {
+            "title": "Funktionen",
+            "list": [
+                "Ununterbrochenes Live-Streaming",
+                "Echtzeit-Chat mit der Community",
+                "Underground-Sender-Entdeckung",
+                "Plattform-optimierte Oberfläche",
+                "Favoriten-Synchronisation zwischen Geräten"
+            ]
+        },
+        "systemRequirements": {
+            "title": "Systemanforderungen",
+            "windows": {
+                "title": "Windows",
+                "os": "Windows 10 oder höher",
+                "ram": "4 GB RAM mindestens",
+                "storage": "500 MB freier Speicherplatz"
+            },
+            "linux": {
+                "title": "Linux",
+                "os": "Ubuntu 18.04+ / Debian 10+ / Fedora 30+",
+                "ram": "4 GB RAM mindestens",
+                "storage": "500 MB freier Speicherplatz"
+            },
+            "android": {
+                "title": "Android",
+                "os": "Android 8.0 oder höher",
+                "ram": "2 GB RAM mindestens",
+                "storage": "100 MB freier Speicherplatz"
+            }
+        }
+    },
+    "versions": {
+      "title": "Alle Versionen",
+      "latestVersion": "NEUESTE VERSION",
+      "readReleaseNotes": "Release Notes lesen",
+      "versions": [
+        {
+          "version": "0.1.4",
+          "isLatest": true,
+          "date": "2024-01-15"
+        },
+        {
+          "version": "0.1.3",
+          "isLatest": false,
+          "date": "2024-01-10"
+        },
+        {
+          "version": "0.1.2",
+          "isLatest": false,
+          "date": "2024-01-05"
+        },
+        {
+          "version": "0.1.1",
+          "isLatest": false,
+          "date": "2024-01-01"
+        },
+        {
+          "version": "0.1.0",
+          "isLatest": false,
+          "date": "2023-12-25"
+        }
+      ]
     }
 }

@@ -1,0 +1,155 @@
+---
+import PlatformIcon from './PlatformIcon.astro';
+
+export interface Props {
+  versions: any[];
+  downloads: any;
+  lang: string;
+}
+
+const { versions, downloads, lang } = Astro.props;
+---
+
+<div class="version-accordion space-y-4">
+  {versions.filter((version: any) => version.version === '0.1.4').map((version: any, index: number) => (
+    <div class="version-item border border-white/20 bg-black">
+      <!-- Version Header -->
+      <button
+        class="version-header w-full flex items-center justify-between p-4 md:p-6 text-left hover:bg-white/5 transition-colors"
+        data-version={version.version}
+        data-index={index}
+      >
+        <div class="flex items-center gap-2 md:gap-4">
+          <span class="text-white font-display text-lg md:text-xl">{version.version} Beta</span>
+          {version.isLatest && (
+            <span class="bg-orange text-black px-2 py-1 text-xs font-bold">
+              {downloads.latestVersion}
+            </span>
+          )}
+        </div>
+        <div class="flex items-center gap-2 md:gap-4">
+          <span class="text-eagle transition-transform duration-200">▼</span>
+        </div>
+      </button>
+
+      <!-- Version Content -->
+      <div class="version-content hidden border-t border-white/20">
+        <div class="p-4 md:p-6">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6">
+            <!-- Windows -->
+            <div class="bg-black border border-white/20 p-4 md:p-6">
+              <div class="flex items-center mb-3 md:mb-4">
+                <div class="text-white mr-2 md:mr-3">
+                  <PlatformIcon platform="windows" size="md" />
+                </div>
+                <h4 class="text-white font-display text-base md:text-lg">{downloads.downloadOptions.windows.title}</h4>
+              </div>
+              <div class="space-y-3">
+                <a href="https://download.hoergen.com/Hoergen-Setup-0.1.4.exe" class="flex items-center justify-between text-eagle hover:text-orange transition-colors">
+                  <span>{downloads.downloadOptions.windows.system}</span>
+                  <span>↓</span>
+                </a>
+                <a href="https://download.hoergen.com/Hoergen-0.1.4-x64.exe" class="flex items-center justify-between text-eagle hover:text-orange transition-colors">
+                  <span>{downloads.downloadOptions.windows.portable}</span>
+                  <span>↓</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Linux -->
+            <div class="bg-black border border-white/20 p-4 md:p-6">
+              <div class="flex items-center mb-3 md:mb-4">
+                <div class="text-white mr-2 md:mr-3">
+                  <PlatformIcon platform="linux" size="md" />
+                </div>
+                <h4 class="text-white font-display text-base md:text-lg">{downloads.downloadOptions.linux.title}</h4>
+              </div>
+              <div class="space-y-3">
+                <a href="https://download.hoergen.com/Hoergen-0.1.4-x86_64.AppImage" class="flex items-center justify-between text-eagle hover:text-orange transition-colors">
+                  <span>{downloads.downloadOptions.linux.appimage}</span>
+                  <span>↓</span>
+                </a>
+                <a href="https://download.hoergen.com/Hoergen-0.1.4-x86_64.AppImage" class="flex items-center justify-between text-eagle hover:text-orange transition-colors">
+                  <span>{downloads.downloadOptions.linux['appimage-arm']}</span>
+                  <span>↓</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Android -->
+            <div class="bg-black border border-white/20 p-4 md:p-6">
+              <div class="flex items-center mb-3 md:mb-4">
+                <div class="text-white mr-2 md:mr-3">
+                  <PlatformIcon platform="android" size="md" />
+                </div>
+                <h4 class="text-white font-display text-base md:text-lg">{downloads.downloadOptions.android.title}</h4>
+              </div>
+              <div class="space-y-3">
+                <a href="https://download.hoergen.com/app-release.apk" class="flex items-center justify-between text-eagle hover:text-orange transition-colors">
+                  <span>{downloads.downloadOptions.android.apk}</span>
+                  <span>↓</span>
+                </a>
+                <a href="https://play.google.com/apps/internaltest/4701342080133532989" class="flex items-center justify-between text-eagle hover:text-orange transition-colors">
+                  <span>{downloads.downloadOptions.android.playstore}</span>
+                  <span>↓</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
+<script>
+  // Accordion functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const versionHeaders = document.querySelectorAll('.version-header');
+
+         // Open the first version (latest) by default
+     const firstVersion = document.querySelector('.version-content');
+     if (firstVersion) {
+       firstVersion.classList.remove('hidden');
+       const firstHeader = document.querySelector('.version-header');
+       if (firstHeader) {
+         const arrow = firstHeader.querySelector('span:last-child');
+         if (arrow && arrow instanceof HTMLElement && arrow.textContent === '▼') {
+           arrow.style.transform = 'rotate(180deg)';
+         }
+       }
+     }
+
+    versionHeaders.forEach(header => {
+      header.addEventListener('click', () => {
+        const content = header.nextElementSibling;
+        const arrow = header.querySelector('span:last-child');
+
+        if (!content || !(content instanceof HTMLElement)) return;
+
+        // Check if this version is already open
+        const isCurrentlyOpen = !content.classList.contains('hidden');
+
+        // Close all versions first
+        document.querySelectorAll('.version-content').forEach(item => {
+          item.classList.add('hidden');
+        });
+
+        // Reset all arrows (only the arrow spans, not the latest version badge)
+        document.querySelectorAll('.version-header span:last-child').forEach(arrow => {
+          if (arrow instanceof HTMLElement && arrow.textContent === '▼') {
+            arrow.style.transform = 'rotate(0deg)';
+          }
+        });
+
+                 // If the clicked version was closed, open it
+         if (!isCurrentlyOpen) {
+           content.classList.remove('hidden');
+           if (arrow && arrow instanceof HTMLElement && arrow.textContent === '▼') {
+             arrow.style.transform = 'rotate(180deg)';
+           }
+         }
+      });
+    });
+  });
+</script>

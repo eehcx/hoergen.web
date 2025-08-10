@@ -250,5 +250,100 @@
         "button": "Начать слушать",
         "desc": "Погрузись в андерграунд. Открой свой новый любимый звук — регистрация не требуется."
       }
+    },
+    "downloads": {
+      "title": "Скачать Hörgen",
+      "subtitle": "Твоя андерграунд-частота на любом устройстве",
+              "detectedPlatform": "Обнаруженная платформа:",
+      "primaryDownload": "Скачать для",
+      "version": "Версия",
+      "latestVersion": "Последняя версия",
+      "allVersions": "Все версии",
+              "platforms": {
+          "windows": "Windows 10/11 (x64)",
+          "linux": "Linux (x64)",
+          "android": "Android (APK)",
+          "macos": "macOS (Intel/Apple Silicon)"
+        },
+                  "downloadOptions": {
+              "windows": {
+                "title": "Windows",
+                "system": "Windows (x64) - Система",
+                "portable": "Windows (x64) - Портативная"
+              },
+              "linux": {
+                "title": "Linux",
+                "appimage": "Linux (x64) - AppImage",
+                "appimage-arm": "Linux (ARM64) - AppImage"
+              },
+              "android": {
+                "title": "Android",
+                "apk": "Android (APK)",
+                "playstore": "Google Play Store"
+              }
+            },
+      "features": {
+        "title": "Возможности",
+        "list": [
+          "Непрерывная трансляция в прямом эфире",
+          "Чат в реальном времени с сообществом",
+          "Открытие андерграунд-станций",
+          "Интерфейс, оптимизированный для каждой платформы",
+          "Синхронизация избранного между устройствами"
+        ]
+      },
+      "systemRequirements": {
+        "title": "Системные требования",
+        "windows": {
+          "title": "Windows",
+          "os": "Windows 10 или выше",
+          "ram": "4 GB RAM минимум",
+          "storage": "500 MB свободного места"
+        },
+        "linux": {
+          "title": "Linux",
+          "os": "Ubuntu 18.04+ / Debian 10+ / Fedora 30+",
+          "ram": "4 GB RAM минимум",
+          "storage": "500 MB свободного места"
+        },
+        "android": {
+          "title": "Android",
+          "os": "Android 8.0 или выше",
+          "ram": "2 GB RAM минимум",
+          "storage": "100 MB свободного места"
+        }
+      }
+    },
+    "versions": {
+      "title": "Все версии",
+      "latestVersion": "ПОСЛЕДНЯЯ ВЕРСИЯ",
+      "readReleaseNotes": "Читать заметки о выпуске",
+      "versions": [
+        {
+          "version": "0.1.4",
+          "isLatest": true,
+          "date": "2024-01-15"
+        },
+        {
+          "version": "0.1.3",
+          "isLatest": false,
+          "date": "2024-01-10"
+        },
+        {
+          "version": "0.1.2",
+          "isLatest": false,
+          "date": "2024-01-05"
+        },
+        {
+          "version": "0.1.1",
+          "isLatest": false,
+          "date": "2024-01-01"
+        },
+        {
+          "version": "0.1.0",
+          "isLatest": false,
+          "date": "2023-12-25"
+        }
+      ]
     }
 }
